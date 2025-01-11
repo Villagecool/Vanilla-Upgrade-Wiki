@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Vanilla Upgrade Wiki",
   description: "Everything you need to know about Vanilla Upgrade!",
-  head: [['link', { rel: 'icon', href: '/Vanilla-Upgrade-Wiki/ass-sets/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/Vanilla-Upgrade-Wiki/favicon.ico' }]],
   base: '/Vanilla-Upgrade-Wiki/',
   ignoreDeadLinks: true,
   themeConfig: {
@@ -15,7 +15,7 @@ export default defineConfig({
       { text: '⛏️ Items', link: '/items' },
       { text: '🐷 Mobs', link: '/mobs' },
       { text: '🌴 Features', link: '/features' },
-      { text: '🎲 Misc', link: '/misc' }
+      { text: '🎲 Other', link: '/misc' }
     ],
 
     sidebar: [
@@ -35,7 +35,7 @@ export default defineConfig({
           ]},
           { text: 'Mobs 🐷', link: '/mobs' },
           { text: 'Features 🌴', link: '/features' },
-          { text: 'Misc 🎲', link: '/misc' }
+          { text: 'Other 🎲', link: '/misc' }
         ]
       }
     ],
@@ -44,7 +44,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/Villagecool/Vanilla-Upgrade-Public-Source' },
       { icon: 'discord', link: 'https://discord.gg/NKqcUJR6er'},
       { icon: 'curseforge', link: 'https://www.curseforge.com/minecraft-bedrock/addons/vanilla-upgrade-addon'},
-      { icon: { svg: '<img src = "/Vanilla-Upgrade-Wiki/ass-sets/dlboxsvg.svg" alt="MCPEDL" width = 24 height = 24/>' }, link: 'https://mcpedl.com/vanilla-upgrade-addon/', ariaLabel: 'MCPEDL' }
+      { icon: { svg: '<img src = "/Vanilla-Upgrade-Wiki/ass-sets/dlboxsvg.png" alt="MCPEDL" width = 24 height = 24/>' }, link: 'https://mcpedl.com/vanilla-upgrade-addon/', ariaLabel: 'MCPEDL' }
     ]
   }
 })
