@@ -17,11 +17,7 @@ hero:
 features:
   - icon: 
       src: /ass-sets/pack_icon.svg
-    title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    title: Work In Progress!
+    details: This wiki is a massive wip! many things will not work or are missing!
 ---
 
