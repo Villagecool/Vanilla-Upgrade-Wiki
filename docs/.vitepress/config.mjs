@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Vanilla Upgrade Wiki",
   description: "Everything you need to know about Vanilla Upgrade!",
-  head: [['link', { rel: 'icon', href: '/Vanilla-Upgrade-Wiki/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: 'https://github.com/Villagecool/Vanilla-Upgrade-Wiki/raw/refs/heads/main/docs/ass-sets/favicon.ico' }]],
   base: '/Vanilla-Upgrade-Wiki/',
   ignoreDeadLinks: true,
   themeConfig: {
