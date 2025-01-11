@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.DFDi2gAL.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"items.md","filePath":"items.md"}'),s={name:"items.md"};function o(r,n,c,i,m,p){return a(),t("div")}const f=e(s,[["render",o]]);export{_ as __pageData,f as default};
