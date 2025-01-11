@@ -44,7 +44,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/Villagecool/Vanilla-Upgrade-Public-Source' },
       { icon: 'discord', link: 'https://discord.gg/NKqcUJR6er'},
       { icon: 'curseforge', link: 'https://www.curseforge.com/minecraft-bedrock/addons/vanilla-upgrade-addon'},
-      { icon: { svg: '<img src = "/Vanilla-Upgrade-Wiki/ass-sets/dlboxsvg.png" alt="MCPEDL" width = 24 height = 24/>' }, link: 'https://mcpedl.com/vanilla-upgrade-addon/', ariaLabel: 'MCPEDL' }
+      { icon: { svg: '<img src = "https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/dlboxsvg.png?raw=true" alt="MCPEDL" width = 24 height = 24/>' }, link: 'https://mcpedl.com/vanilla-upgrade-addon/', ariaLabel: 'MCPEDL' }
     ]
   }
 })

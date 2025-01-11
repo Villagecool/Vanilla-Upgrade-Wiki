@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: Everything you need to know about Vanilla Upgrade!
   image:
-    src: /ass-sets/logo-main.png
+    src: https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/logo-main.png?raw=true
     alt: Vanilla Upgrade Page Icon
   actions:
     - theme: alt
@@ -28,7 +28,7 @@ hero:
 
 features:
   - icon: 
-      src: /ass-sets/pack_icon.png
+      src: https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/pack_icon.png?raw=true
     title: Work In Progress!
     details: This wiki is a massive wip! many things will not work or are missing!
 ---
