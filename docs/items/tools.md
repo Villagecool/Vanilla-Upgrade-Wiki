@@ -11,3 +11,4 @@
 |Max Durability|100|
 |Damage Chance|5% - 10%|
 ### About
+The copper wrench is a tool that can be used to rotate blocks 90 degrees
