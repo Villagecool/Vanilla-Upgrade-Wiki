@@ -35,7 +35,14 @@ export default defineConfig({
           ]},
           { text: 'Mobs 🐷', link: '/mobs' },
           { text: 'Features 🌴', link: '/features' },
-          { text: 'Other 🎲', link: '/misc' }
+          { text: 'Other 🎲', link: '/misc', items: [
+            { text: '\"Advanced\" System' },
+            { text: 'Base Game Changes/Features' },
+            { text: 'Downloads' },
+            { text: 'Known Issues' },
+            { text: 'Changelog' },
+            { text: 'Contributions' }
+          ] }
         ]
       }
     ],
