@@ -24,7 +24,7 @@ hero:
       link: /features
     - theme: alt
       text: Other
-      link: /misc
+      link: /bijmd.html
 
 features:
   - icon: 
