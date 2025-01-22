@@ -1,1 +1,0 @@
-const a="/Vanilla-Upgrade-Wiki/assets/advanced_hopper.BfC4r7hg.png",s="/Vanilla-Upgrade-Wiki/assets/carvedbricks.C9sBu427.png",p="/Vanilla-Upgrade-Wiki/assets/pineapple.BceY-9tb.png";export{a as _,s as a,p as b};

@@ -1,0 +1,65 @@
+/* From Uiverse.io by JohnnyCSilva */ 
+.SmallLinkCard {
+    width: 100%;
+    max-width: 490px;
+    height: 100px;
+    background: var(--vp-c-bg-soft);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .SmallLinkCard:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    border: 1.5px solid var(--vp-c-border);
+  }
+  
+  .img {
+    width: 75px;
+    height: 75px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  
+  .SmallLinkCard:hover > .img {
+    transition: 0.5s ease-in-out;
+  }
+  
+  .textBox {
+    width: calc(100% - 90px);
+    margin-left: 10px;
+    color: white;
+    font-family: 'Poppins' sans-serif;
+  }
+  
+  .textContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .span {
+    font-size: 10px;
+    text-decoration: none;
+    color: var(--vp-c-text-1);
+  }
+  
+  .h1 {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--vp-c-text-1);
+    font-weight: bold;
+  }
+  
+  .p {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--vp-c-text-1);
+    font-weight: lighter;
+  }
+  
+  

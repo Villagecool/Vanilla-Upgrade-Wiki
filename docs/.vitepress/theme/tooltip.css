@@ -1,0 +1,59 @@
+/* From Uiverse.io by SmookyDev */ 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  
+  .tooltiptext {
+    --background-tooltip: var(--vp-c-bg-soft); /* Default background color for tooltip */
+    position: absolute;
+    top: -39px; /* Adjusted top position */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5em;
+    opacity: 0;
+    pointer-events: none;
+    font-weight: bold;
+    transition: all 0.3s;
+    background: var(--background-tooltip);
+    color: var(--vp-c-text-1); /* Text color */
+    border-radius: 5px;
+    width: 210px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 0.6em;
+    width: 0.6em;
+    bottom: -0.2em;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    background: var(
+      --background-tooltip
+    ); /* Use the same background color as the tooltip */
+  }
+  
+  .tooltip .icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    /*font-weight: bold;*/
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+  }
+  

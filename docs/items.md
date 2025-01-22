@@ -4,23 +4,42 @@ outline: deep
 
 # Items
 
-# ⠀
-<Badge type="info">
-<a href="/Vanilla-Upgrade-Wiki/items/tools.html"><img src="/ass-sets/items/copper_wrench.png" alt="HTML tutorial" style="height:100px;"></a>
-<a href="/Vanilla-Upgrade-Wiki/items/tools.html"><img src="/ass-sets/advanced_hopper.png" alt="HTML tutorial" style="width:200px;height:0px;"></a>
-<a href="/Vanilla-Upgrade-Wiki/items/tools.html"><h1 style="font-size:1vw"><b>Tool Items</b></h1></a>
-</Badge>
+<a href="/Vanilla-Upgrade-Wiki/items/tools.html">
+<div class="SmallLinkCard">
+  <div class="img"><img src="/ass-sets/items/copper_wrench.png" alt="Girl in a jacket" width="100" height="100"></div>
+  <div class="textBox">
+    <div class="textContent">
+      <p class="h1">Tool Items</p>
+      <span class="span" style="padding-right:20px;" >Items</span>
+    </div>
+    <p class="p">Items that possess functions or assist the player</p>
+  <div>
+</div></div></div></a>
 
-# ⠀
-<Badge type="warning">
-<a href="/Vanilla-Upgrade-Wiki/items/food.html"><img src="/ass-sets/carvedbricks.png" alt="HTML tutorial" style="height:100px;"></a>
-<a href="/Vanilla-Upgrade-Wiki/items/food.html"><img src="/ass-sets/carvedbricks.png" alt="HTML tutorial" style="width:200px;height:0px;"></a>
-<a href="/Vanilla-Upgrade-Wiki/items/food.html"><h1 style="font-size:1vw"><b>Food Items</b></h1></a>
-</Badge>
+<b></b>
 
-# ⠀
-<Badge type="danger">
-<a href="/Vanilla-Upgrade-Wiki/items/misc.html"><img src="/ass-sets/pineapple.png" alt="HTML tutorial" style="height:100px;"></a>
-<a href="/Vanilla-Upgrade-Wiki/items/misc.html"><img src="/ass-sets/advanced_hopper.png" alt="HTML tutorial" style="width:200px;height:0px;"></a>
-<a href="/Vanilla-Upgrade-Wiki/items/misc.html"><h1 style="font-size:1vw"><b>Misc Items</b></h1></a>
-</Badge>
+<a href="/Vanilla-Upgrade-Wiki/items/food.html">
+<div class="SmallLinkCard">
+  <div class="img"><img src="/ass-sets/items/tomato.png" alt="Girl in a jacket" width="100" height="100"></div>
+  <div class="textBox">
+    <div class="textContent">
+      <p class="h1">Food Items</p>
+      <span class="span" style="padding-right:20px;" >Items</span>
+    </div>
+    <p class="p">Items the player can eat</p>
+  <div>
+</div></div></div></a>
+
+<b></b>
+
+<a href="/Vanilla-Upgrade-Wiki/items/misc.html">
+<div class="SmallLinkCard">
+  <div class="img"><img src="/ass-sets/items/sled.png" alt="Girl in a jacket" width="100" height="100"></div>
+  <div class="textBox">
+    <div class="textContent">
+      <p class="h1">Miscellaneous Items</p>
+      <span class="span" style="padding-right:20px;" >Items</span>
+    </div>
+    <p class="p">Items that do not fall in any other category</p>
+  <div>
+</div></div></div></a>
