@@ -10,10 +10,7 @@ outline: deep
 <div class="SmallLinkCard">
   <div class="img"><img src="/ass-sets/blocks/advanced_hopper.png" alt="Girl in a jacket" width="100" height="100"></div>
   <div class="textBox">
-    <div class="textContent">
-      <p class="h1">Functional Blocks</p>
-      <span class="span" style="padding-right:20px;" >Blocks</span>
-    </div>
+    <p class="h1">Functional Blocks</p>
     <p class="p">Blocks that possess functions or assist the player</p>
   <div>
 </div></div></div></a>
@@ -24,10 +21,7 @@ outline: deep
 <div class="SmallLinkCard">
   <div class="img"><img src="/ass-sets/blocks/carvedbricks.png" alt="Girl in a jacket" width="100" height="100"></div>
   <div class="textBox">
-    <div class="textContent">
-      <p class="h1">Decorational Blocks</p>
-      <span class="span" style="padding-right:20px;" >Blocks</span>
-    </div>
+    <p class="h1">Decorational Blocks</p>
     <p class="p">Blocks have no function other than looking cool</p>
   <div>
 </div></div></div></a>
@@ -38,10 +32,7 @@ outline: deep
 <div class="SmallLinkCard">
   <div class="img"><img src="/ass-sets/blocks/pineapple.png" alt="Girl in a jacket" height="100"></div>
   <div class="textBox">
-    <div class="textContent">
-      <p class="h1">Miscellaneous Blocks</p>
-      <span class="span" style="padding-right:20px;" >Blocks</span>
-    </div>
+    <p class="h1">Miscellaneous Blocks</p>
     <p class="p">Blocks that do not fall in any other category</p>
   <div>
 </div></div></div></a>

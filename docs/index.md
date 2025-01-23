@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: Everything you need to know about Vanilla Upgrade!
   image:
-    src: https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/logo-main.png?raw=true
+    src: https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/logo-wiki.png?raw=true
     alt: Vanilla Upgrade Page Icon
   actions:
     - theme: alt
