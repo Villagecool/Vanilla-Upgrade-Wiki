@@ -28,6 +28,18 @@ outline: deep
 
 <b></b>
 
+<a href="/Vanilla-Upgrade-Wiki/blocks/families.html">
+<div class="SmallLinkCard">
+  <div class="img"><img src="/ass-sets/blocks/azalea_planks.png" alt="Girl in a jacket" height="100"></div>
+  <div class="textBox">
+    <p class="h1">Block Families</p>
+    <p class="p">Groups of similar block types, like wood sets</p>
+  <div>
+</div></div></div></a>
+
+<b></b>
+
+
 <a href="/Vanilla-Upgrade-Wiki/blocks/misc.html">
 <div class="SmallLinkCard">
   <div class="img"><img src="/ass-sets/blocks/pineapple.png" alt="Girl in a jacket" height="100"></div>
