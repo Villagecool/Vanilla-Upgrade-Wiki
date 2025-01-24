@@ -27,6 +27,7 @@ export default defineConfig({
           { text: 'Blocks 🧱', link: '/blocks', items: [
             { text: 'Functional', link: '/blocks/functional' },
             { text: 'Decoration', link: '/blocks/deco' },
+            { text: 'Families', link: '/blocks/families' },
             { text: 'Misc', link: '/blocks/misc' }
           ]},
           { text: 'Items ⛏️', link: '/items', items: [
