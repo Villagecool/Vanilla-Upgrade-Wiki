@@ -30,7 +30,7 @@ export default defineConfig({
             { text: 'Families', link: '/blocks/families' },
             { text: 'Misc', link: '/blocks/misc' }
           ]*/},
-          { text: 'Items ⛏️', link: '/items/misc', /*items: [
+          { text: 'Items ⛏️', link: '/items/misc'/*, items: [
             { text: 'Tools', link: '/items/tools' },
             { text: 'Food', link: '/items/food' },
             { text: 'Misc', link: '/items/misc' }

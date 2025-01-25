@@ -5,7 +5,7 @@
 `vc:advanced_filter`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -93,7 +93,7 @@
 `vc:bone_meal_meal`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 |Use Duration|2.31|
@@ -138,7 +138,7 @@
 `vc:chocolate_cake`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -150,7 +150,7 @@
 `vc:chocolate_milk_bucket`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 |Use Duration|1.61|
@@ -165,7 +165,7 @@
 `vc:cocojuice`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 |Use Duration|1.61|
@@ -219,7 +219,7 @@
 `vc:copper_wrench`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|Yes (10)|
 |Deals Damage|Yes (4)|
 |Max Durability|100|
@@ -275,7 +275,7 @@
 `vc:cotton_ball`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -311,7 +311,7 @@
 `vc:frozen_feather`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 |Use Duration|5|
@@ -325,7 +325,7 @@
 `vc:glareizer`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|Yes (14)|
 |Deals Damage|No|
 |Max Durability|250|
@@ -374,7 +374,7 @@
 `vc:hot_chocolate_bucket`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 |Use Duration|1.81|
@@ -389,7 +389,7 @@
 `vc:lingering_potion_of_blindness`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -401,7 +401,7 @@
 `vc:lingering_potion_of_blindness_II`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -413,7 +413,7 @@
 `vc:lingering_potion_of_levitation`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -425,7 +425,7 @@
 `vc:lingering_potion_of_levitation_II`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -452,7 +452,7 @@
 `vc:milk_bottle`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 |Use Duration|1.61|
@@ -467,7 +467,7 @@
 `vc:dispenser_minecart`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -494,7 +494,7 @@
 `vc:music_disc_mist`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -506,7 +506,7 @@
 `vc:music_disc_subhour`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -545,7 +545,7 @@
 `vc:potion_of_blindness`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 |Use Duration|1.61|
@@ -560,7 +560,7 @@
 `vc:potion_of_blindness_II`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 |Use Duration|1.61|
@@ -575,7 +575,7 @@
 `vc:potion_of_levitation`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 |Use Duration|1.61|
@@ -590,7 +590,7 @@
 `vc:potion_of_levitation_II`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 |Use Duration|1.61|
@@ -656,7 +656,7 @@
 `vc:sled`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -695,7 +695,7 @@
 `vc:splash_potion_of_blindness`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -707,7 +707,7 @@
 `vc:splash_potion_of_blindness_II`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -719,7 +719,7 @@
 `vc:splash_potion_of_levitation`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -731,7 +731,7 @@
 `vc:splash_potion_of_levitation_II`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
@@ -797,7 +797,7 @@
 `vc:totem_of_illusion`
 | Component | Value |
 |---|---|
-|Stackable|Yes (1)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 
