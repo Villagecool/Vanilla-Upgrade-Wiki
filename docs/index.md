@@ -13,36 +13,52 @@ hero:
 <h1 class="name" data-v-5a3e9999=""><span class="clip" data-v-5a3e9999="">Everything you need to know about Vanilla Upgrade!</span></h1>
 
 <!-- From Uiverse.io by Admin12121 --> 
-<div class="fancy-menu">
-   <a href="#" class="fancy-link">
-      <span class="fancy-link-icon">
-         <img src="/ass-sets/blocks/rotator.png" alt="" width="100" height="100">
-      </span>
-      <span class="fancy-link-title">Blocks</span> 
-   </a>
-   <a href="#" class="fancy-link">
-      <span class="fancy-link-icon">
-         <img src="/ass-sets/items/copper_wrench.png" alt="" width="100" height="100">
-      </span>
-      <span class="fancy-link-title">Items</span> 
-   </a>
-   <a href="#" class="fancy-link">
-      <span class="fancy-link-icon">
-         <img src="/ass-sets/mobs/termite.png" alt="" width="100" height="100">
-      </span>
-      <span class="fancy-link-title">Mobs</span> 
-   </a>
-   <a href="#" class="fancy-link">
-      <span class="fancy-link-icon">
-         <img src="/ass-sets/blocks/sapling_palm.png" alt="" width="100" height="100">
-      </span>
-      <span class="fancy-link-title">Features</span> 
-   </a>
-   <a href="#" class="fancy-link">
-      <span class="fancy-link-icon">
-         <img src="/ass-sets/items/cake_chocolate.png" alt="" width="100" height="100">
-      </span>
-      <span class="fancy-link-title">Other</span> 
-   </a>
+
+<div class="kinda-fancy-menu" width="100%"> 
+   <a href="/Vanilla-Upgrade-Wiki/blocks.html">
+   <div class="SmallLinkCard" width="300px">
+     <div class="img"><img src="/ass-sets/blocks/rotator.png" alt="" height="100"></div>
+     <div class="textBox">
+       <p class="h1">Blocks</p>
+       <p class="p">Blockss</p>
+     <div>
+   </div></div></div></a>
+   
+   <a href="/Vanilla-Upgrade-Wiki/items.html">
+   <div class="SmallLinkCard" width="300px">
+     <div class="img"><img src="/ass-sets/items/copper_wrench.png" alt="" height="100"></div>
+     <div class="textBox">
+       <p class="h1">Items</p>
+       <p class="p">Itemss</p>
+     <div>
+   </div></div></div></a>
 </div>
+
+<div class="kinda-fancy-menu" width="100%"> 
+   <a href="/Vanilla-Upgrade-Wiki/mobs.html">
+   <div class="SmallLinkCard" width="300px">
+     <div class="img"><img src="/ass-sets/mobs/termite.png" alt="" height="100"></div>
+     <div class="textBox">
+       <p class="h1">Mobs</p>
+       <p class="p">the mobs</p>
+     <div>
+   </div></div></div></a>
+   
+   <a href="/Vanilla-Upgrade-Wiki/features.html">
+   <div class="SmallLinkCard" width="300px">
+     <div class="img"><img src="/ass-sets/blocks/sapling_palm.png" alt=""  height="100"></div>
+     <div class="textBox">
+       <p class="h1">Features</p>
+       <p class="p">stuff that spawn in world</p>
+     <div>
+   </div></div></div></a>
+</div>
+<a href="/Vanilla-Upgrade-Wiki/misc.html">
+<div class="SmallLinkCard" width="300px">
+  <div class="img"><img src="/ass-sets/items/chocolate_cake.png" alt="" height="100"></div>
+  <div class="textBox">
+    <p class="h1">Other</p>
+    <p class="p">other info</p>
+  <div>
+</div></div></div></a>
 </div>

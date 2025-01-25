@@ -1,7 +1,7 @@
 /* From Uiverse.io by JohnnyCSilva */ 
 .SmallLinkCard {
-    width: 100%;
-    max-width: 490px;
+    min-width: 500px;
+    max-width: 500px;
     height: 100px;
     background: var(--vp-c-bg-soft);
     border-radius: 20px;
