@@ -12,8 +12,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '🏠 Home', link: '/' },
-      { text: '🧱 Blocks', link: '/blocks' },
-      { text: '⛏️ Items', link: '/items' },
+      { text: '🧱 Blocks', link: '/blocks/deco' },
+      { text: '⛏️ Items', link: '/items/misc' },
       { text: '🐷 Mobs', link: '/mobs' },
       { text: '🌴 Features', link: '/features' },
       { text: '🎲 Other', link: '/misc' }
@@ -24,17 +24,17 @@ export default defineConfig({
         text: 'Vanilla Upgrade',
         link: '/',
         items: [
-          { text: 'Blocks 🧱', link: '/blocks', items: [
+          { text: 'Blocks 🧱', link: '/blocks/deco'/*, items: [
             { text: 'Functional', link: '/blocks/functional' },
             { text: 'Decoration', link: '/blocks/deco' },
             { text: 'Families', link: '/blocks/families' },
             { text: 'Misc', link: '/blocks/misc' }
-          ]},
-          { text: 'Items ⛏️', link: '/items', items: [
+          ]*/},
+          { text: 'Items ⛏️', link: '/items/misc', /*items: [
             { text: 'Tools', link: '/items/tools' },
             { text: 'Food', link: '/items/food' },
             { text: 'Misc', link: '/items/misc' }
-          ]},
+          ]*/},
           { text: 'Mobs 🐷', link: '/mobs' },
           { text: 'Features 🌴', link: '/features' },
           { text: 'Other 🎲', link: '/misc', items: [
