@@ -1,6 +1,6 @@
 /* From Uiverse.io by JohnnyCSilva */ 
 .SmallLinkCard {
-    min-width: 500px;
+    min-width: 300px;
     max-width: 500px;
     height: 100px;
     background: var(--vp-c-bg-soft);
