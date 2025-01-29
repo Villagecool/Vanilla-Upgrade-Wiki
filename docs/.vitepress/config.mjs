@@ -24,15 +24,16 @@ export default defineConfig({
         text: 'Vanilla Upgrade',
         link: '/',
         items: [
-          { text: 'Blocks 🧱', link: '/blocks/deco', items: [
+          { text: 'Blocks 🧱', link: '/blocks/', items: [
             { text: 'Functional', link: '/blocks/functional' },
             { text: 'Decoration', link: '/blocks/deco' },
             { text: 'Families', link: '/blocks/families' },
             { text: 'Misc', link: '/blocks/misc' }
           ]},
-          { text: 'Items ⛏️', link: '/items/misc', items: [
+          { text: 'Items ⛏️', link: '/items/', items: [
             { text: 'Tools', link: '/items/tools' },
             { text: 'Food', link: '/items/food' },
+            { text: 'Crops', link: '/items/crops' },
             { text: 'Misc', link: '/items/misc' }
           ]},
           { text: 'Mobs 🐷', link: '/mobs' },
