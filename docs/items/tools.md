@@ -180,8 +180,7 @@ const selectedPot = ref("1");
 const potions = [
 `
 ## Potion Of Blindness
-
-![img](../ass-sets/items/potion_of_blindness.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/potion_of_blindness.png?raw=true)
 \`vc:potion_of_blindness\`
 
 \`vc:potion_of_blindness_II\`
@@ -200,7 +199,7 @@ const potions = [
 
 ## Potion Of Levitation
 
-![img](../ass-sets/items/potion_of_levitation.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/potion_of_levitation.png?raw=true)
 \`vc:potion_of_levitation\`
 
 \`vc:potion_of_levitation_II\`
@@ -219,7 +218,7 @@ const potions = [
 
 ## Milk Bottle
 
-![img](../ass-sets/items/milk_bottle.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/milk_bottle.png?raw=true)
 \`vc:milk_bottle\`
 | Component | Value |
 |---|---|
@@ -237,7 +236,7 @@ const potions = [
 `
 ## Splash Potion Of Blindness
 
-![img](../ass-sets/items/splash_potion_of_blindness.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/splash_potion_of_blindness.png?raw=true)
 \`vc:splash_potion_of_blindness\`
 
 \`vc:splash_potion_of_blindness_II\`
@@ -253,7 +252,7 @@ const potions = [
 
 ## Splash Potion Of Levitation
 
-![img](../ass-sets/items/splash_potion_of_levitation.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/splash_potion_of_levitation.png?raw=true)
 \`vc:splash_potion_of_levitation\`
 
 \`vc:splash_potion_of_levitation_II\`
@@ -269,7 +268,7 @@ const potions = [
 
 ## Splash Milk Bottle
 
-![img](../ass-sets/items/splash_milk_bottle.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/splash_milk_bottle.png?raw=true)
 \`vc:splash_milk_bottle\`
 | Component | Value |
 |---|---|
@@ -285,7 +284,7 @@ const potions = [
 
 ## Lingering Potion Of Blindness
 
-![img](../ass-sets/items/lingering_potion_of_blindness.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/lingering_potion_of_blindness.png?raw=true)
 \`vc:lingering_potion_of_blindness\`
 
 \`vc:lingering_potion_of_blindness_II\`
@@ -301,7 +300,7 @@ const potions = [
 
 ## Lingering Potion Of Levitation
 
-![img](../ass-sets/items/lingering_potion_of_levitation.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/lingering_potion_of_levitation.png?raw=true)
 \`vc:lingering_potion_of_levitation\`
 
 \`vc:lingering_potion_of_levitation_II\`
@@ -317,7 +316,7 @@ const potions = [
 
 ## Lingering Milk Bottle
 
-![img](../ass-sets/items/lingering_milk_bottle.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/lingering_milk_bottle.png?raw=true)
 | Component | Value |
 |---|---|
 |Stackable|No|

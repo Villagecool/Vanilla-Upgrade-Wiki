@@ -537,7 +537,7 @@ const soulsandstone = [
 const generateBlockInfo = ({ name, file, vc, breakingTime, blastResistance = "_Not Set_", flammable, placement, info = "" }) => `
 ## ${name}
 
-![img](../ass-sets/blocks/${file}.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/${file}.png?raw=true)
 \`vc:${vc}\`
 | Component | Value |
 |---|---|

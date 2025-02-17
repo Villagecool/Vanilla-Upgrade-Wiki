@@ -250,7 +250,7 @@ const selectedDIRT = ref("1");
 const blueNetherBricks = [
     `
 ## Blue Nether Bricks
-![img](../ass-sets/blocks/blue_nether_bricks.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true)
 \`vc:blue_nether_bricks\`
 | Component | Value |
 |---|---|
@@ -265,7 +265,7 @@ const blueNetherBricks = [
     `
 ## Blue Nether Brick Stairs
 
-![img](../ass-sets/blocks/blue_nether_brick_stairs.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_brick_stairs.png?raw=true)
 \`vc:blue_nether_brick_stairs\`
 | Component | Value |
 |---|---|
@@ -283,7 +283,7 @@ const blueNetherBricks = [
     `
 ## Blue Nether Brick Slab
 
-![img](../ass-sets/blocks/blue_nether_brick_slab.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_brick_slab.png?raw=true)
 \`vc:blue_nether_brick_slab\`
 | Component | Value |
 |---|---|
@@ -301,7 +301,7 @@ const blueNetherBricks = [
 ]
 const dirt = [`
 ## Dirt Stairs
-![img](../ass-sets/blocks/dirt_stairs.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/dirt_stairs.png?raw=true)
 \`vc:dirt_stairs\`
 | Component | Value |
 |---|---|
@@ -316,7 +316,7 @@ const dirt = [`
 `,`
 ## Dirt Slab
 
-![img](../ass-sets/blocks/dirt_slab.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/dirt_slab.png?raw=true)
 \`vc:dirt_slab\`
 | Component | Value |
 |---|---|
