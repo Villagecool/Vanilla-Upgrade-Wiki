@@ -60,36 +60,6 @@
 
 ### About:
 
-## Glass Door
-
-![img](../ass-sets/blocks/glass_door.png)
-`vc:glass_door`
-| Component | Value |
-|---|---|
-|Breaking time (secs)|2.5|
-|Luminous|No|
-|Blast resistance|_Not Set_|
-|Flammable|Yes (5)|
-|Conducts Redstone|No|
-|Placement Style|Directional|
-
-### About:
-
-## Glass Trapdoor
-
-![img](../ass-sets/blocks/glass_trapdoor.png)
-`vc:glass_trapdoor`
-| Component | Value |
-|---|---|
-|Breaking time (secs)|3|
-|Luminous|No|
-|Blast resistance|_Not Set_|
-|Flammable|Yes (5)|
-|Conducts Redstone|No|
-|Placement Style|Directional|
-
-### About:
-
 ## Gunpowder Line
 
 ![img](../ass-sets/blocks/gunpowder_line.png)
