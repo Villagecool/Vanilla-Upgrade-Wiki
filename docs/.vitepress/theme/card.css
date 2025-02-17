@@ -18,14 +18,14 @@
     border: 1.5px solid var(--vp-c-border);
   }
   
-  .img {
+  .aimg {
     width: 75px;
     height: 75px;
     margin-left: 10px;
     border-radius: 10px;
   }
   
-  .SmallLinkCard:hover > .img {
+  .SmallLinkCard:hover > .aimg {
     transition: 0.5s ease-in-out;
   }
   

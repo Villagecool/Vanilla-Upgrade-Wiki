@@ -8,7 +8,7 @@ outline: deep
 
 <a href="/Vanilla-Upgrade-Wiki/blocks/functional.html">
 <div class="SmallLinkCard">
-  <div class="img"><img src="/ass-sets/blocks/advanced_hopper.png" alt="Girl in a jacket" width="100" height="100"></div>
+  <div class="aimg"><img src="/ass-sets/blocks/advanced_hopper.png" alt="Girl in a jacket" width="100" height="100"></div>
   <div class="textBox">
     <p class="h1">Functional Blocks</p>
     <p class="p">Blocks that possess functions or assist the player</p>
@@ -19,7 +19,7 @@ outline: deep
 
 <a href="/Vanilla-Upgrade-Wiki/blocks/deco.html">
 <div class="SmallLinkCard">
-  <div class="img"><img src="/ass-sets/blocks/carvedbricks.png" alt="Girl in a jacket" width="100" height="100"></div>
+  <div class="aimg"><img src="/ass-sets/blocks/carvedbricks.png" alt="Girl in a jacket" width="100" height="100"></div>
   <div class="textBox">
     <p class="h1">Decorational Blocks</p>
     <p class="p">Blocks have no function other than looking cool</p>
@@ -30,7 +30,7 @@ outline: deep
 
 <a href="/Vanilla-Upgrade-Wiki/blocks/families.html">
 <div class="SmallLinkCard">
-  <div class="img"><img src="/ass-sets/blocks/azalea_planks.png" alt="Girl in a jacket" height="100"></div>
+  <div class="aimg"><img src="/ass-sets/blocks/azalea_planks.png" alt="Girl in a jacket" height="100"></div>
   <div class="textBox">
     <p class="h1">Block Families</p>
     <p class="p">Groups of similar block types, like wood sets</p>
@@ -42,7 +42,7 @@ outline: deep
 
 <a href="/Vanilla-Upgrade-Wiki/blocks/misc.html">
 <div class="SmallLinkCard">
-  <div class="img"><img src="/ass-sets/blocks/pineapple.png" alt="Girl in a jacket" height="100"></div>
+  <div class="aimg"><img src="/ass-sets/blocks/pineapple.png" alt="Girl in a jacket" height="100"></div>
   <div class="textBox">
     <p class="h1">Miscellaneous Blocks</p>
     <p class="p">Blocks that do not fall in any other category</p>

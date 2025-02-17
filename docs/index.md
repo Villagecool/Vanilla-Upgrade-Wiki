@@ -17,7 +17,7 @@ hero:
 <div class="kinda-fancy-menu" width="100%"> 
    <a href="/Vanilla-Upgrade-Wiki/blocks.html">
    <div class="SmallLinkCard" width="300px">
-     <div class="img"><img src="/ass-sets/blocks/rotator.png" alt="" height="100"></div>
+     <div class="aimg"><img src="/ass-sets/blocks/rotator.png" alt="" height="100"></div>
      <div class="textBox">
        <p class="h1">Blocks</p>
        <p class="p">Blockss</p>
@@ -26,7 +26,7 @@ hero:
    
    <a href="/Vanilla-Upgrade-Wiki/items.html">
    <div class="SmallLinkCard" width="300px">
-     <div class="img"><img src="/ass-sets/items/copper_wrench.png" alt="" height="100"></div>
+     <div class="aimg"><img src="/ass-sets/items/copper_wrench.png" alt="" height="100"></div>
      <div class="textBox">
        <p class="h1">Items</p>
        <p class="p">Itemss</p>
@@ -37,7 +37,7 @@ hero:
 <div class="kinda-fancy-menu" width="100%"> 
    <a href="/Vanilla-Upgrade-Wiki/mobs.html">
    <div class="SmallLinkCard" width="300px">
-     <div class="img"><img src="/ass-sets/mobs/termite.png" alt="" height="100"></div>
+     <div class="aimg"><img src="/ass-sets/mobs/termite.png" alt="" height="100"></div>
      <div class="textBox">
        <p class="h1">Mobs</p>
        <p class="p">the mobs</p>
@@ -46,7 +46,7 @@ hero:
    
    <a href="/Vanilla-Upgrade-Wiki/features.html">
    <div class="SmallLinkCard" width="300px">
-     <div class="img"><img src="/ass-sets/blocks/sapling_palm.png" alt=""  height="100"></div>
+     <div class="aimg"><img src="/ass-sets/blocks/sapling_palm.png" alt=""  height="100"></div>
      <div class="textBox">
        <p class="h1">Features</p>
        <p class="p">stuff that spawn in world</p>
@@ -55,7 +55,7 @@ hero:
 </div>
 <a href="/Vanilla-Upgrade-Wiki/misc.html">
 <div class="SmallLinkCard" width="300px">
-  <div class="img"><img src="/ass-sets/items/chocolate_cake.png" alt="" height="100"></div>
+  <div class="aimg"><img src="/ass-sets/items/chocolate_cake.png" alt="" height="100"></div>
   <div class="textBox">
     <p class="h1">Other</p>
     <p class="p">other info</p>
