@@ -1,0 +1,61 @@
+.smelting-background {
+  position: relative;
+  background-image: url("https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/smelting.png?raw=true");
+  background-size: cover; /* adjust as needed */
+  background-position: left;
+  width: 512px;
+  height: 264px; /* adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: Minecraft;
+  src: url("./ass-sets/Minecraft-Seven_v2.ttf");
+}
+.smelting-item-result {
+  position: absolute; /* Take it out of the normal flow */
+  top: 100px; /* Adjust as needed */
+  left: 404px; /* Adjust as needed */
+  width: 64px;
+  height: 64px;
+  z-index: 20; /* Enssure it appears above the grid/background */
+}
+.smelting-item-input {
+  position: absolute; /* Take it out of the normal flow */
+  top: 136px; /* Adjust as needed */
+  left: 256px; /* Adjust as needed */
+  width: 64px;
+  height: 64px;
+  z-index: 20; /* Ensure it appears above the grid/background */
+}
+.smelting-item-fuel {
+  position: absolute; /* Take it out of the normal flow */
+  top: 424px; /* Adjust as needed */
+  left: 256px; /* Adjust as needed */
+  width: 64px;
+  height: 64px;
+  z-index: 20; /* Ensure it appears above the grid/background */
+}
+
+.smelting-grid-item {
+  position: relative;
+  display: inline-block;
+}
+.smelting-grid-item img {
+  width: 64px;
+  height: 64px;
+  height: auto;
+  display: block;
+}
+
+.smelting-grid-item:hover .c-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.s-item-result:hover .c-tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
