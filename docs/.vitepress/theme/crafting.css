@@ -1,0 +1,78 @@
+.crafting-background {
+  position: relative;
+  background-image: url("https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/crafting.png?raw=true");
+  background-size: cover; /* adjust as needed */
+  background-position: left;
+  width: 512px;
+  height: 264px; /* adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: Minecraft;
+  src: url("./ass-sets/Minecraft-Seven_v2.ttf");
+}
+.crafting-grid {
+  display: grid;
+  transform: translateX(-124px);
+  grid-template-columns: repeat(3, 3fr); /* 3 columns; adjust for your needs */
+  gap: 8px;
+  grid-auto-columns: 64px;
+  grid-auto-rows: 64px;
+  width: 208px; /* or any width you want for the grid */
+  height: 208px;
+}
+.item-result {
+  position: absolute; /* Take it out of the normal flow */
+  top: 100px; /* Adjust as needed */
+  left: 404px; /* Adjust as needed */
+  width: 64px;
+  height: 64px;
+  z-index: 20; /* Ensure it appears above the grid/background */
+}
+
+.crafting-grid-item {
+  position: relative;
+  display: inline-block;
+}
+.crafting-grid-item img {
+  width: 64px;
+  height: 64px;
+  height: auto;
+  display: block;
+}
+
+.c-tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.c-tooltip-text {
+  visibility: hidden;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  font-family: Minecraft;
+  padding: 4px 8px;
+  position: absolute;
+  z-index: 10;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+.crafting-grid-item:hover .c-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.item-result:hover .c-tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
