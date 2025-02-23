@@ -425,6 +425,7 @@ const selectedInfop = ref("poption1");
 const selectedInfoc = ref("coption1");
 const selectedInfog = ref("goption1");
 const selectedInfos = ref("soption1");
+const selectedBNB = ref("1");
 const isOpen = ref(true);
 const isOpena = ref(true);
 const isOpenp = ref(true);
@@ -432,11 +433,59 @@ const isOpenc = ref(true);
 const isOpeng = ref(true);
 const isOpens = ref(true);
 
-marked.setOptions({
-  gfm: true,
-  breaks: true,
-});
 
+const blueNetherBricks = [
+    `
+## Blue Nether Bricks
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true)
+\`vc:blue_nether_bricks\`
+| Component | Value |
+|---|---|
+|Breaking time (secs)|5|
+|Luminous|No|
+|Blast resistance|_Not Set_|
+|Flammable|No|
+|Conducts Redstone|No|
+
+### About:
+    `,
+    `
+## Blue Nether Brick Stairs
+
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_brick_stairs.png?raw=true)
+\`vc:blue_nether_brick_stairs\`
+| Component | Value |
+|---|---|
+|Breaking time (secs)|10|
+|Luminous|No|
+|Blast resistance|_Not Set_|
+|Flammable|No|
+|Conducts Redstone|No|
+|Waterloggable|Yes|
+|Placement Style|Directional|
+
+### About:
+
+    `,
+    `
+## Blue Nether Brick Slab
+
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_brick_slab.png?raw=true)
+\`vc:blue_nether_brick_slab\`
+| Component | Value |
+|---|---|
+|Breaking time (secs)|10|
+|Luminous|No|
+|Blast resistance|_Not Set_|
+|Flammable|No|
+|Conducts Redstone|No|
+|Waterloggable|Yes|
+|Placement Style|Directional|
+
+### About:
+
+    `
+]
 const blockDataAza = [
   { name: "Azalea Planks", file: "azalea_planks", vc: "azalea_planks", breakingTime: 3, flammable: "Yes (5)" , info: ""},
   { name: "Azalea Stairs", file: "azalea_stairs", vc: "azalea_stairs", breakingTime: 3, flammable: "Yes (5)", placement: "Directional" , info: ""},
@@ -538,7 +587,8 @@ const generateBlockInfo = ({ name, file, vc, breakingTime, blastResistance = "_N
 ## ${name}
 
 <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/${file}.png?raw=true" alt="img" title="${name}">
-\`vc:${vc}\`
+<code>vc:${vc}</code>
+
 | Component | Value |
 |---|---|
 |Breaking time (secs)|${breakingTime}|
@@ -581,12 +631,12 @@ const infoSoulSS = soulsandstone.reduce((acc, block, index) => {
 }, {});
 
 
-const compiledMarkdownAza = computed(() => marked(infoAza[selectedInfoa.value]));
-const compiledMarkdownEla = computed(() => marked(infoEla[selectedInfoe.value]));
-const compiledMarkdownPal = computed(() => marked(infoPalm[selectedInfop.value]));
-const compiledMarkdownCom = computed(() => marked(infoCompCopper[selectedInfoc.value]));
-const compiledMarkdownGlo = computed(() => marked(infoGlorium[selectedInfog.value]));
-const compiledMarkdownSou = computed(() => marked(infoSoulSS[selectedInfos.value]));
+const compiledMarkdownAza = computed(() => marked(infoAza[selectedInfoa.value].replace('vc:no:', 'no:')));
+const compiledMarkdownEla = computed(() => marked(infoEla[selectedInfoe.value].replace('vc:no:', 'no:')));
+const compiledMarkdownPal = computed(() => marked(infoPalm[selectedInfop.value].replace('vc:no:', 'no:')));
+const compiledMarkdownCom = computed(() => marked(infoCompCopper[selectedInfoc.value].replace('vc:no:', 'no:')));
+const compiledMarkdownGlo = computed(() => marked(infoGlorium[selectedInfog.value].replace('vc:no:', 'no:')));
+const compiledMarkdownSou = computed(() => marked(infoSoulSS[selectedInfos.value].replace('vc:no:', 'no:')));
 
 const formattedInfo = computed(() => {
   // Replace newline characters with <br>
