@@ -425,12 +425,12 @@ const blueNetherBricks = [
 
 ### Crafting:
 <div class="crafting-background">
-    <div class="item-result"> <span class="c-tooltip-text">Blue Nether Bricks</span> <img src="../ass-sets/blocks/blue_nether_bricks.png"/></div>
+    <div class="item-result"> <span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
   <div class="crafting-grid">
     <div class="crafting-grid-item"><span class="c-tooltip-text">Nether Brick</span> <img src="https://minecraft.wiki/images/Nether_Brick_JE2_BE2.png"/></div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Warped Wart</span> <img src="../ass-sets/items/warped_wart.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Warped Wart</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/warped_wart.png?raw=true"/></div>
     <div class="crafting-grid-item"> </div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Warped Wart</span> <img src="../ass-sets/items/warped_wart.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Warped Wart</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/items/warped_wart.png?raw=true"/></div>
     <div class="crafting-grid-item"><span class="c-tooltip-text">Nether Brick</span> <img src="https://minecraft.wiki/images/Nether_Brick_JE2_BE2.png"/></div>
   </div>
 </div>
@@ -452,17 +452,17 @@ const blueNetherBricks = [
 
 ### Crafting:
 <div class="crafting-background">
-    <div class="item-result"> <span class="c-tooltip-text">Blue Nether Brick Stairs</span> <img src="../ass-sets/blocks/blue_nether_brick_stairs.png"/></div>
+    <div class="item-result"> <span class="c-tooltip-text">Blue Nether Brick Stairs</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_brick_stairs.png?raw=true"/></div>
   <div class="crafting-grid">
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="../ass-sets/blocks/blue_nether_bricks.png"/></div>
-    <div class="crafting-grid-item"> </div>
-    <div class="crafting-grid-item"> </div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="../ass-sets/blocks/blue_nether_bricks.png"/></div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="../ass-sets/blocks/blue_nether_bricks.png"/></div>
-    <div class="crafting-grid-item"> </div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="../ass-sets/blocks/blue_nether_bricks.png"/></div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="../ass-sets/blocks/blue_nether_bricks.png"/></div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="../ass-sets/blocks/blue_nether_bricks.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>?raw=true
+    <div class="crafting-grid-item"> </div>?raw=true
+    <div class="crafting-grid-item"> </div>?raw=true
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>?raw=true
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>?raw=true
+    <div class="crafting-grid-item"> </div>?raw=true
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>?raw=true
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>?raw=true
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
   </div>
 </div>
     `,
@@ -483,7 +483,7 @@ const blueNetherBricks = [
 
 ### Crafting:
 <div class="crafting-background">
-    <div class="item-result"> <span class="c-tooltip-text">Blue Nether Brick Slab</span> <img src="../ass-sets/blocks/blue_nether_brick_slab.png"/></div>
+    <div class="item-result"> <span class="c-tooltip-text">Blue Nether Brick Slab</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_brick_slab.png?raw=true"/></div>
   <div class="crafting-grid">
     <div class="crafting-grid-item"> </div>
     <div class="crafting-grid-item"> </div>
@@ -491,9 +491,9 @@ const blueNetherBricks = [
     <div class="crafting-grid-item"> </div>
     <div class="crafting-grid-item"> </div>
     <div class="crafting-grid-item"> </div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="../ass-sets/blocks/blue_nether_bricks.png"/></div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="../ass-sets/blocks/blue_nether_bricks.png"/></div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="../ass-sets/blocks/blue_nether_bricks.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>?raw=true
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>?raw=true
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
   </div>
 </div>
     `
@@ -513,7 +513,7 @@ const dirt = [`
 
 ### Crafting:
 <div class="crafting-background">
-    <div class="item-result"> <span class="c-tooltip-text">Dirt Stairs</span> <img src="../ass-sets/blocks/dirt_stairs.png"/></div>
+    <div class="item-result"> <span class="c-tooltip-text">Dirt Stairs</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/dirt_stairs.png?raw=true"/></div>
   <div class="crafting-grid">
     <div class="crafting-grid-item"><span class="c-tooltip-text">Dirt</span> <img src="https://minecraft.wiki/images/Dirt.png"/></div>
     <div class="crafting-grid-item"> </div>
@@ -542,7 +542,7 @@ const dirt = [`
 
 ### Crafting:
 <div class="crafting-background">
-    <div class="item-result"> <span class="c-tooltip-text">Dirt Stairs</span> <img src="../ass-sets/blocks/dirt_stairs.png"/></div>
+    <div class="item-result"> <span class="c-tooltip-text">Dirt Stairs</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/dirt_stairs.png?raw=true"/></div>
   <div class="crafting-grid">
     <div class="crafting-grid-item"> </div>
     <div class="crafting-grid-item"> </div>
