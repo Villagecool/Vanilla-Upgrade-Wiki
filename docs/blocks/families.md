@@ -1,6 +1,7 @@
 # Blocks Families
 
-::: details Azalea Wood ![img](../ass-sets/azalea.png) Click to Expand
+## Azalea Wood
+::: details Click to Expand ![img](../ass-sets/azalea.png) 
 
 <div class="info-box">
 <div class="radioswitcher-inputs">
@@ -62,7 +63,8 @@ Yummy
 </div>
 :::
 
-::: details Elax Wood/Biome ![img](../ass-sets/elax.png) Click to Expand
+## Elax Wood/Biome 
+::: details Click to Expand ![img](../ass-sets/elax.png) 
 
 <div class="info-box">
 <div class="radioswitcher-inputs">
@@ -158,7 +160,9 @@ Yummy
 </div>
 
 :::
-::: details Palm Wood ![img](../ass-sets/palm.png) Click to Expand
+
+## Palm Wood 
+::: details Click to Expand ![img](../ass-sets/palm.png)
 
 <div class="info-box">
 <div class="radioswitcher-inputs">
@@ -229,7 +233,9 @@ Yummy
 
 </div>
 :::
-::: details Compressed Copper ![img](../ass-sets/compressed_copper.png) Click to Expand
+
+## Compressed Copper 
+::: details Click to Expand ![img](../ass-sets/compressed_copper.png)
 
 <div class="info-box">
 <div class="radioswitcher-inputs">
@@ -277,7 +283,9 @@ Yummy
 </div>
 
 :::
-::: details Glorium ![img](../ass-sets/glorium.png) Click to Expand
+
+## Glorium 
+::: details Click to Expand ![img](../ass-sets/glorium.png)
 
 <div class="info-box">
 <div class="radioswitcher-inputs">
@@ -366,7 +374,9 @@ Yummy
 </div>
 
 :::
-::: details Soul Sandstone ![img](../ass-sets/soulsandstone.png) Click to Expand
+
+## Soul Sandstone 
+::: details Click to Expand ![img](../ass-sets/soulsandstone.png)
 
 <div class="info-box">
 <div class="radioswitcher-inputs">

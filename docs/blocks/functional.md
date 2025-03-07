@@ -1,6 +1,6 @@
 # Functional Blocks
 
-## Advanced Hopper
+## Advanced Hopper <Badge type="danger">[**Advanced System**](/advanced_system.html)</Badge>
 
 ![img](../ass-sets/blocks/advanced_hopper.png)
 `vc:advanced_hopper`
@@ -15,15 +15,15 @@
 |Placement Style|Positional|
 
 ### About:
-**Advanced Hoppers** are members of the Advanced family, they serve as an upgrade to the [Hopper](https://minecraft.wiki/w/Hopper)
-- They are much faster to their original counterpart. Their speed compares to a [Hopper Minecart](https://minecraft.wiki/w/Minecart_with_Hopper)
+**Advanced Hoppers** are members of the Advanced family, they serve as an upgrade to the <img src="https://minecraft.wiki/images/Invicon_Hopper.png?2d17e" class="inline-img"> [Hopper](https://minecraft.wiki/w/Hopper)
+- They are much faster to their original counterpart. Their speed compares to a <img src="https://minecraft.wiki/images/Invicon_Minecart_with_Hopper.png?2d17e" class="inline-img"> [Hopper Minecart](https://minecraft.wiki/w/Minecart_with_Hopper)
 - Unlike the original, they lack an openable UI.
 - Their main feature is that they can be **Filtered**
     - Interacting with the Hopper once will inform the player of the current filter
     - Interacting with the Hopper twice will set the Hoppers filter to the held item
         - If the player is not holding an item, the filter will be cleared
 
-    - [Advanced Filters](/items/tools.html#advanced-filter) can also be used to create a more complex filter
+    - <img src="../ass-sets/items/advanced_filter.png" class="inline-img"> [Advanced Filters](/items/tools.html#advanced-filter) can also be used to create a more complex filter
         - To Learn more about this system, read [this page](/advanced_system.html)
         - Using an Advanced Filter will consume the item
             - If the Hopper's filter is later changed, the Advanced Filter will be returned.
@@ -46,7 +46,7 @@
   </div>
 </div>
 
-## Advanced Observer
+## Advanced Observer <Badge type="danger">[**Advanced System**](/advanced_system.html)</Badge>
 
 ![img](../ass-sets/blocks/advanced_observer.png)
 `vc:advanced_observer`
@@ -63,14 +63,14 @@
 
 **Advanced Observers** are members of the Advanced family, they serve as an upgrade to the [Observer](https://minecraft.wiki/w/Observer)
 - Rather than detecting block updates, they look for a specific block's presence
-- Once detected, they take on a suprised expression <img src="../ass-sets/blocks/advanced_observer_lit.png" width="64"></img>
+- Once detected, they take on a suprised expression <img src="../ass-sets/blocks/advanced_observer_lit.png" class="inline-img" style="width=64px;height=64px;"></img>
 - They choose how to detect blocks via **Filters**
     - Interacting with the Observer once will inform the player of the current filter
     - Interacting with the Observer twice will set the Observer's filter to the held item
         - Unlike Advanced Hoppers, Observers cannot lack a filter. Otherwise they just don't do anything.
 
-    - [Advanced Filters](/items/tools.html#advanced-filter) can also be used to create a more complex filter
-        - To Learn more about this system, read [this page](/advanced_system.html)
+    - <img src="../ass-sets/items/advanced_filter.png" class="inline-img"> [Advanced Filters](/items/tools.html#advanced-filter) can also be used to create a more complex filter
+        - To Learn more about this system, read ***[this page](/advanced_system.html)***
         - Using an Advanced Filter will consume the item
             - If the Observer's filter is later changed, the Advanced Filter will be returned.
 
@@ -232,7 +232,9 @@
 
 ## Rotator
 
-![img](../ass-sets/blocks/rotator.png)
+<img src="../ass-sets/blocks/rotator.png" style="vertical-align:middle;display:inline-block;width:112px;height:112px;">
+<img src="https://media.forgecdn.net/attachments/description/null/description_5a4558b1-0b73-486a-9ecb-df67259e773f.gif" style="vertical-align:middle;display:inline-block;width:92px;height:92px;">
+
 `vc:rotator`
 | Component | Value |
 |---|---|

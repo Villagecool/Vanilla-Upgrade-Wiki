@@ -8,6 +8,9 @@ export default defineConfig({
   base: '/Vanilla-Upgrade-Wiki/',
   ignoreDeadLinks: true,
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     logo: 'https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/pack_icon.png?raw=true',
     // https://vitepress.dev/reference/default-theme-config
     nav: [

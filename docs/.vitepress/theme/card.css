@@ -18,6 +18,45 @@
     border: 1.5px solid var(--vp-c-border);
   }
   
+  .inline-img {
+    vertical-align:middle;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    image-rendering:pixelated;
+  }
+  .halfhunger {
+    vertical-align:middle;
+    content:url("https://minecraft.wiki/images/Half_Hunger_%28icon%29.png");
+    display:inline-block;
+    width:16px;
+    height:16px;
+    image-rendering:pixelated;
+  }
+  .hunger {
+    vertical-align:middle;
+    content:url("https://minecraft.wiki/images/Hunger_%28icon%29.png");
+    display:inline-block;
+    width:16px;
+    height:16px;
+    image-rendering:pixelated;
+  }
+  .heart {
+    vertical-align:middle;
+    content:url("https://minecraft.wiki/images/Heart_%28icon%29.png");
+    display:inline-block;
+    width:16px;
+    height:16px;
+    image-rendering:pixelated;
+  }
+  .halfheart {
+    vertical-align:middle;
+    content:url("https://minecraft.wiki/images/Half_Heart_%28icon%29.png");
+    display:inline-block;
+    width:16px;
+    height:16px;
+    image-rendering:pixelated;
+  }
   .aimg {
     width: 75px;
     height: 75px;

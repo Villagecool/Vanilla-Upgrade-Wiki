@@ -7,10 +7,8 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|0.3|
-|Nutrition|1|
+|Nutrition|1 <img class="halfhunger"/>|
 |Saturation|3|
 
 ### About: 
@@ -22,10 +20,8 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|0.3|
-|Nutrition|1|
+|Nutrition|1 <img class="halfhunger"/>|
 |Saturation|3|
 
 ### About: 
@@ -38,10 +34,8 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.61|
-|Nutrition|4|
+|Nutrition|4 <img class="hunger"/><img class="hunger"/>|
 |Saturation|3|
 
 ### About: 
@@ -53,10 +47,8 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.61|
-|Nutrition|8|
+|Nutrition|8 <img class="hunger"/><img class="hunger"/><img class="hunger"/><img class="hunger"/>|
 |Saturation|10|
 
 ### About: 
@@ -79,7 +71,7 @@
 |Flammable|No|
 |Deals Damage|No|
 |Use Duration|1.61|
-|Nutrition|2|
+|Nutrition|2 <img class="hunger"/>|
 |Saturation|5|
 
 ### About: 
@@ -91,10 +83,8 @@
 | Component | Value |
 |---|---|
 |Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|2.31|
-|Nutrition|6|
+|Nutrition|6 <img class="hunger"/><img class="hunger"/><img class="hunger"/>|
 |Saturation|6|
 
 ### About: 
@@ -105,11 +95,9 @@
 `vc:bragoneese`
 | Component | Value |
 |---|---|
-|Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
+|Stackable|Yes (64)|
 |Use Duration|1.61|
-|Nutrition|1|
+|Nutrition|1 <img class="halfhunger"/>|
 |Saturation|10|
 
 ### About: 
@@ -120,11 +108,9 @@
 `vc:charhood`
 | Component | Value |
 |---|---|
-|Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
+|Stackable|Yes (64)|
 |Use Duration|1.61|
-|Nutrition|4|
+|Nutrition|4 <img class="hunger"/><img class="hunger"/>|
 |Saturation|3|
 
 ### About: 
@@ -133,11 +119,12 @@
 ## Chocolate Cake
 ![img](../ass-sets/items/chocolate_cake.png)
 `vc:chocolate_cake`
+<Badge type="warning" text="Stats are Per Bite"/>
 | Component | Value |
 |---|---|
 |Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
+|Nutrition|2 <img class="hunger"/>|
+|Saturation|2.8|
 
 ### About: 
 
@@ -165,10 +152,8 @@
 | Component | Value |
 |---|---|
 |Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.61|
-|Nutrition|6|
+|Nutrition|6 <img class="hunger"/><img class="hunger"/>|
 |Saturation|2|
 
 ### About: 
@@ -180,10 +165,8 @@
 | Component | Value |
 |---|---|
 |Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.61|
-|Nutrition|4|
+|Nutrition|4 <img class="hunger"/><img class="hunger"/>|
 |Saturation|5|
 
 ### About: 
@@ -195,8 +178,6 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 
 ### About: 
 
@@ -223,10 +204,8 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|2.31|
-|Nutrition|3|
+|Nutrition|3 <img class="hunger"/><img class="halfhunger"/>|
 |Saturation|3.5|
 
 ### About: 
@@ -254,10 +233,8 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|2.31|
-|Nutrition|6|
+|Nutrition|6 <img class="hunger"/><img class="hunger"/><img class="hunger"/>|
 |Saturation|2|
 
 ### About: 
@@ -269,10 +246,8 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.61|
-|Nutrition|5|
+|Nutrition|5 <img class="hunger"/><img class="hunger"/><img class="halfhunger"/>|
 |Saturation|6|
 
 ### About: 
@@ -284,10 +259,8 @@
 | Component | Value |
 |---|---|
 |Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.81|
-|Nutrition|6|
+|Nutrition|6 <img class="hunger"/><img class="hunger"/><img class="hunger"/>|
 |Saturation|5|
 
 ### About: 
@@ -304,11 +277,9 @@
 `vc:maganset`
 | Component | Value |
 |---|---|
-|Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
+|Stackable|Yes (64)|
 |Use Duration|1.61|
-|Nutrition|3|
+|Nutrition|3 <img class="hunger"/><img class="halfhunger"/>|
 |Saturation|4|
 
 ### About: 
@@ -319,11 +290,9 @@
 `vc:mudfruit`
 | Component | Value |
 |---|---|
-|Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
+|Stackable|Yes (64)|
 |Use Duration|1.61|
-|Nutrition|6|
+|Nutrition|6 <img class="hunger"/><img class="hunger"/><img class="hunger"/>|
 |Saturation|6|
 
 ### About: 
@@ -335,10 +304,8 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.61|
-|Nutrition|3|
+|Nutrition|3 <img class="hunger"/><img class="halfhunger"/>|
 |Saturation|5|
 
 ### About: 
@@ -350,10 +317,8 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.71|
-|Nutrition|6|
+|Nutrition|6 <img class="hunger"/><img class="hunger"/><img class="hunger"/>|
 |Saturation|15|
 
 ### About: 
@@ -366,10 +331,8 @@
 | Component | Value |
 |---|---|
 |Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.61|
-|Nutrition|2|
+|Nutrition|2 <img class="hunger"/>|
 |Saturation|1|
 
 ### About: 
@@ -382,10 +345,8 @@
 | Component | Value |
 |---|---|
 |Stackable|No|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.61|
-|Nutrition|8|
+|Nutrition|8 <img class="hunger"/><img class="hunger"/><img class="hunger"/><img class="hunger"/>|
 |Saturation|5|
 
 ### About: 
@@ -397,10 +358,8 @@
 | Component | Value |
 |---|---|
 |Stackable|Yes (64)|
-|Enchantable|No|
-|Deals Damage|No|
 |Use Duration|1.61|
-|Nutrition|4|
+|Nutrition|4 <img class="hunger"/><img class="hunger"/>|
 |Saturation|5|
 
 ### About: 

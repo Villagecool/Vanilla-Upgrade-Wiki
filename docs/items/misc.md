@@ -132,21 +132,6 @@
 
 ### About:
 
-## Warped Wart
-
-![img](../ass-sets/items/warped_wart.png)
-`vc:warped_wart`
-| Component | Value |
-|---|---|
-|Stackable|Yes (64)|
-|Breaking time (secs)|0.5|
-|Luminous|No|
-|Flammable|No|
-|Enchantable|No|
-|Deals Damage|No|
-
-### About:
-
 ## Wither Bone
 
 ![img](../ass-sets/items/wither_bone.png)

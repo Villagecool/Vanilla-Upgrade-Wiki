@@ -73,7 +73,7 @@ Carved Melons come form Minecraft earth, they are worn by Melon Golems
 Placing a Carved Melon on two snow blocks will spawn a melon golem
 <img src="../ass-sets/mobs/melon_golem.png" height="64" width="64">
 
-- <div> they are created by shearing <img class="inline-img" src="https://minecraft.wiki/images/Invicon_Shears.png?b943a"> a Melon Block <img src="https://minecraft.wiki/images/Invicon_Melon.png?2fc17" width="32" height="32"> </div>
+- they are created by shearing <img class="inline-img" src="https://minecraft.wiki/images/Invicon_Shears.png?b943a"> a Melon Block <img src="https://minecraft.wiki/images/Invicon_Melon.png?2fc17" class="inline-img">
 - Their id is misspelled as "mellon" due to vlliage not knowing how to spell
 
 ## Speckled Carved Mellon
@@ -94,7 +94,7 @@ Speckled Carved Melons are a variant of the Carved Melon they are worn by Melon 
 
 Placing a Speckled Carved Melon on two snow blocks will spawn a snow golem with a Speckled Carved Melon
 <img src="../ass-sets/mobs/speckled_melon_golem.png" height="64" width="64">
-- they are created by shearing <img src="https://minecraft.wiki/images/Invicon_Shears.png?b943a" style="display: block;" width="32" height="32"> a Melon Block <img src="../ass-sets/blocks/melon_speckled.png" width="32" height="32">
+- they are created by shearing <img class="inline-img" src="https://minecraft.wiki/images/Invicon_Shears.png?b943a"> a Speckled Melon Block <img src="../ass-sets/blocks/melon_speckled.png" class="inline-img">
 - Their id is misspelled as "mellon" due to vlliage not knowing how to spell
 
 ## Charred Rock
@@ -112,7 +112,7 @@ Placing a Speckled Carved Melon on two snow blocks will spawn a snow golem with 
 ### About:
 *Charred Rocks* are the structure of nether springs found in lava lakes.
 - They typically do not spawn anywhere else in the nether
-- [Aloe Plants](/items/crops.html#aloe-plant) can grow on these
+- <img src="../ass-sets/blocks/aloe_plant.png" class="inline-img"> [Aloe Plants](/items/crops.html#aloe-plant) can grow on these
 - They are extremely brittle, hence not being able to be crafted with
 
 ## Dirt
@@ -155,7 +155,7 @@ Placing a Speckled Carved Melon on two snow blocks will spawn a snow golem with 
 |Conducts Redstone|No|
 
 ### About:
-**Endlate bricks** are [Endslate](/blocks/misc.html#endslate) based brick blocks
+**Endlate bricks** are <img src="../ass-sets/blocks/endslate.png" class="inline-img"> [Endslate](/blocks/misc.html#endslate) based brick blocks
 - Unlike their [End Stone](https://minecraft.wiki/w/End_Stone_Bricks) counterpart, they come with a cracked variant
   - To compensate, [End stone was also given a cracked variant](/blocks/deco.html#end-bricks-cracked)
   
@@ -493,7 +493,7 @@ const blueNetherBricks = [
     <div class="crafting-grid-item"> </div>
     <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
     <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
-    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png.raw=true"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
   </div>
 </div>
     `
@@ -585,11 +585,5 @@ const formattedInfo = computed(() => {
 .slide-enter-to, .slide-leave-from {
   max-height: 500px; /* adjust as needed */
   opacity: 1;
-}
-.inline-img {
-  width: 32px;
-  height: 32px;
-  vertical-align: middle;
-  position: inline;
 }
 </style>
