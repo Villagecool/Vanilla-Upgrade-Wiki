@@ -47,7 +47,7 @@ export default defineConfig({
             { text: 'Downloads' },
             { text: 'Known Issues' },
             { text: 'Changelog' },
-            { text: 'Contributions' }
+            { text: 'Contributions', link: '/contributions' }
           ] }
         ]
       }
