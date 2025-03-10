@@ -13,6 +13,9 @@ hero:
 <h1 class="name" data-v-5a3e9999=""><span class="clip" data-v-5a3e9999="">Everything you need to know about Vanilla Upgrade!</span></h1>
 
 <!-- From Uiverse.io by Admin12121 --> 
+::: warning Incomplete Site
+This wiki is incomplete! So it may lack details or crucial information.
+:::
 
 <div class="kinda-fancy-menu" width="100%"> 
    <a href="/Vanilla-Upgrade-Wiki/blocks.html">

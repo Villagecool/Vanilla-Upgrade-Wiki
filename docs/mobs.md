@@ -1,4 +1,7 @@
 # Mobs
+::: warning Incomplete Article
+This article is incomplete! So it may lack details or crucial information.
+:::
 
 ## Bandager
 <img src="./ass-sets/mobs/bandager.png" width=121px/>

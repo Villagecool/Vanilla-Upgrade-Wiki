@@ -1,4 +1,7 @@
 # Blocks Families
+::: warning Incomplete Article
+This article is incomplete! So it may lack details or crucial information.
+:::
 
 ## Azalea Wood
 ::: details Click to Expand ![img](../ass-sets/azalea.png) 

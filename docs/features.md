@@ -1,4 +1,9 @@
 # Features
+::: warning Incomplete Article
+This article is incomplete! So it may lack details or crucial information.
+
+I basically tested all the cool css things in here lol
+:::
 
 ### Crafting
 
