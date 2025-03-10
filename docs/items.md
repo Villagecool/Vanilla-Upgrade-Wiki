@@ -2,7 +2,8 @@
 outline: deep
 ---
 
-# Items
+# Items (discombobulation)
+## List of item types:
 
 <a href="/Vanilla-Upgrade-Wiki/items/tools.html">
 <div class="SmallLinkCard">

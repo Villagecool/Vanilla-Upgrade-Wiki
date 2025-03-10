@@ -1,49 +1,43 @@
 {
-  "hash": "004627dc",
+  "hash": "4a02d711",
   "configHash": "40139380",
-  "lockfileHash": "b45c40d2",
-  "browserHash": "e9d1c3ff",
+  "lockfileHash": "b2918ce3",
+  "browserHash": "233a8ec2",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "525933f4",
+      "fileHash": "df4320bb",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "d3c4d4ef",
+      "fileHash": "e916bc61",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "0a65ff9b",
+      "fileHash": "fcba8b8f",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "90960064",
+      "fileHash": "1a50dbe3",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "e6f73741",
+      "fileHash": "6810d8e4",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "57944444",
-      "needsInterop": false
-    },
-    "marked": {
-      "src": "../../../../node_modules/marked/lib/marked.esm.js",
-      "file": "marked.js",
-      "fileHash": "064151b3",
+      "fileHash": "7943c8a2",
       "needsInterop": false
     }
   },
@@ -53,9 +47,6 @@
     },
     "chunk-LW4I4DCF": {
       "file": "chunk-LW4I4DCF.js"
-    },
-    "chunk-V6TY7KAL": {
-      "file": "chunk-V6TY7KAL.js"
     }
   }
 }

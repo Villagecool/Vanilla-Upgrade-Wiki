@@ -1,7 +1,4 @@
 # Decoration Blocks
-::: warning Incomplete Article
-This article is incomplete! So it may lack details or crucial information.
-:::
 
 ## Blue Nether Bricks
 
@@ -78,6 +75,32 @@ Placing a Carved Melon on two snow blocks will spawn a melon golem
 
 - they are created by shearing <img class="inline-img" src="https://minecraft.wiki/images/Invicon_Shears.png?b943a"> a Melon Block <img src="https://minecraft.wiki/images/Invicon_Melon.png?2fc17" class="inline-img">
 - Their id is misspelled as "mellon" due to vlliage not knowing how to spell
+
+## Snow Bricks
+
+<div class="info-box">
+<div class="radioswitcher-inputs">
+  <label class="radioswitcher">
+    <input type="radio" name="radioswitcher" v-model="selectedSB" value="1">
+        <span class="name"><div class="img"><img src="../ass-sets/blocks/snowbrick.png" width="25" height="25"></div>Block</span>
+  </label>
+  <label class="radioswitcher">
+    <input type="radio" name="radioswitcher" v-model="selectedSB" value="2">
+        <span class="name"><div class="img"><img src="../ass-sets/blocks/snow_brick_stairs.png" width="25" height="25"></div>Stairs</span>
+  </label>
+  <label class="radioswitcher">
+    <input type="radio" name="radioswitcher" v-model="selectedSB" value="3">
+        <span class="name"><div class="img"><img src="../ass-sets/blocks/snow_brick_slab.png" width="25" height="25"></div>Slab</span>
+  </label>
+</div>
+
+<transition name="slide">
+  <div class="info-box" v-html="compsnowBrick"></div>
+</transition>
+
+**Snow Bricks** are a set packed down blocks of Snow that can be used for construction.
+
+</div>
 
 ## Speckled Carved Mellon
 
@@ -413,6 +436,7 @@ import { computed, ref } from "vue";
 import { marked } from "marked";
 const selectedBNB = ref("1");
 const selectedDIRT = ref("1");
+const selectedSB = ref("1");
 const blueNetherBricks = [
     `
 ## Blue Nether Bricks
@@ -559,8 +583,50 @@ const dirt = [`
   </div>
 </div>
 `]
+const snow = [
+  `## Snow Bricks
+
+![img](../ass-sets/blocks/snowbrick.png)
+\`vc:snowbrick\`
+| Component | Value |
+|---|---|
+|Breaking time (secs)|5|
+|Luminous|No|
+|Blast resistance|_Not Set_|
+|Flammable|No|
+|Conducts Redstone|No|
+`, `## Snow Brick Stairs
+
+![img](../ass-sets/blocks/snow_brick_stairs.png)
+\`vc:snow_brick_stairs\`
+| Component | Value |
+|---|---|
+|Breaking time (secs)|5|
+|Luminous|No|
+|Blast resistance|_Not Set_|
+|Flammable|No|
+|Conducts Redstone|No|
+|Placement Style|Directional|
+
+`,
+`## Snow Brick Slab
+
+![img](../ass-sets/blocks/snow_brick_slab.png)
+\`vc:snow_brick_slab\`
+| Component | Value |
+|---|---|
+|Breaking time (secs)|5|
+|Luminous|No|
+|Blast resistance|_Not Set_|
+|Flammable|No|
+|Conducts Redstone|No|
+|Placement Style|Directional|
+
+  `
+]
 const compblueNetherBrick = computed(() => marked(blueNetherBricks[selectedBNB.value-1]));
 const compDirt = computed(() => marked(dirt[selectedDIRT.value-1]));
+const compsnowBrick = computed(() => marked(snow[selectedSB.value-1]));
 
 const formattedInfo = computed(() => {
   // Replace newline characters with <br>

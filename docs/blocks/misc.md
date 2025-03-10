@@ -1,7 +1,4 @@
 # Plants
-::: warning Incomplete Article
-This article is incomplete! So it may lack details or crucial information.
-:::
 
 ## Bubble Flower
 
@@ -16,9 +13,12 @@ This article is incomplete! So it may lack details or crucial information.
 |Conducts Redstone|No|
 
 ### About:
+**Bubble Flower**s are a direct reference to the **Goodlands** found in the [Eerie Mojang Office Party](https://minecraft.wiki/w/Eerie_Mojang_Office_Party), recreating the flowers that spawn bubbles.
+- Obviously, they can be found in the small [Goodlands](/features.html#goodlands) patch found in the Badlands.
 
 ## Cattail
 
+![img](../ass-sets/items/cattails.png)
 ![img](../ass-sets/blocks/cattail.png)
 `vc:cattail`
 |Component|Value|
@@ -31,6 +31,8 @@ This article is incomplete! So it may lack details or crucial information.
 |Waterloggabe|Yes|
 
 ### About
+**Cattail**s are a new plant that can be found in rivers or beaches.
+- They lack much other purpose
 
 ## Green Pedals
 
@@ -45,6 +47,10 @@ This article is incomplete! So it may lack details or crucial information.
 |Conducts Redstone|No|
 
 ### About:
+**Green Pedals**s are a direct reference to the **Goodlands** found in the [Eerie Mojang Office Party](https://minecraft.wiki/w/Eerie_Mojang_Office_Party), recreating the flowers that spawn bubbles.
+- Obviously, they can be found in the small [Goodlands](/features.html#goodlands) patch found in the Badlands.
+- They function similarly to [Pink Petals](https://minecraft.wiki/w/Pink_Pedals), however they lack the ability to be stacked
+
 
 ## Lavender
 
@@ -59,8 +65,10 @@ This article is incomplete! So it may lack details or crucial information.
 |Conducts Redstone|No|
 
 ### About:
+**Lavender** plants are a direct reference to the **Goodlands** found in the [Eerie Mojang Office Party](https://minecraft.wiki/w/Eerie_Mojang_Office_Party), recreating the flowers that spawn bubbles.
+- Obviously, they can be found in the small [Goodlands](/features.html#goodlands) patch found in the Badlands.
 
-## Melon Speckled
+## Glistering Melon
 
 ![img](../ass-sets/blocks/melon_speckled.png)
 `vc:melon_speckled`
@@ -73,6 +81,38 @@ This article is incomplete! So it may lack details or crucial information.
 |Conducts Redstone|No|
 
 ### About:
+**Glistering Melon**s are a Full Block variant to <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png" class="inline-img"/> [Glistering Melon Slice](https://minecraft.wiki/w/Glistering_Melon_Slice)
+
+### Crafting:
+
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Glistering Melon</span> <img src="../ass-sets/blocks/melon_speckled.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Glistering Melon Slice</span> <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png?44715"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Glistering Melon Slice</span> <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png?44715"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Glistering Melon Slice</span> <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png?44715"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Glistering Melon Slice</span> <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png?44715"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Glistering Melon Slice</span> <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png?44715"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Glistering Melon Slice</span> <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png?44715"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Glistering Melon Slice</span> <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png?44715"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Glistering Melon Slice</span> <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png?44715"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Glistering Melon Slice</span> <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png?44715"/> </div>
+  </div>
+</div>
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Glistering Melon</span> <img src="../ass-sets/blocks/melon_speckled.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gold Ingot</span> <img src="https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gold Ingot</span> <img src="https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gold Ingot</span> <img src="https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gold Ingot</span> <img src="https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Melon</span> <img src="https://minecraft.wiki/images/Melon_JE2_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gold Ingot</span> <img src="https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gold Ingot</span> <img src="https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gold Ingot</span> <img src="https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gold Ingot</span> <img src="https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6"/> </div>
+  </div>
+</div>
 
 ## Waterlily with Lotus
 
@@ -88,6 +128,11 @@ This article is incomplete! So it may lack details or crucial information.
 |Placement Style|Directional|
 
 ### About:
+**Waterlily with Lotus**s are a rare <img src="https://minecraft.wiki/images/Invicon_Lily_Pad.png" class="inline-img"/> [Waterlily](https://minecraft.wiki/w/Waterlily) variant with a flower on top!
+- thats kinda it
+<br>
+
+---
 
 # Misc Blocks
 
@@ -105,6 +150,25 @@ This article is incomplete! So it may lack details or crucial information.
 |Waterloggabe|No|
 
 ### About
+**Charcoal Blocks**s are simply a full block of <img src="https://minecraft.wiki/images/Charcoal_JE4_BE4.png" class="inline-img"/>[**Charcoal**](https://minecraft.wiki/w/Charcoal)
+
+### Crafting:
+
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Charcoal Block</span> <img src="../ass-sets/blocks/charcoal_block.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Charcoal</span> <img src="https://minecraft.wiki/images/Charcoal_JE4_BE4.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Charcoal</span> <img src="https://minecraft.wiki/images/Charcoal_JE4_BE4.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Charcoal</span> <img src="https://minecraft.wiki/images/Charcoal_JE4_BE4.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Charcoal</span> <img src="https://minecraft.wiki/images/Charcoal_JE4_BE4.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Charcoal</span> <img src="https://minecraft.wiki/images/Charcoal_JE4_BE4.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Charcoal</span> <img src="https://minecraft.wiki/images/Charcoal_JE4_BE4.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Charcoal</span> <img src="https://minecraft.wiki/images/Charcoal_JE4_BE4.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Charcoal</span> <img src="https://minecraft.wiki/images/Charcoal_JE4_BE4.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Charcoal</span> <img src="https://minecraft.wiki/images/Charcoal_JE4_BE4.png"/> </div>
+  </div>
+</div>
+
 
 ## Crystalized Experience Block
 
@@ -119,6 +183,24 @@ This article is incomplete! So it may lack details or crucial information.
 |Conducts Redstone|No|
 
 ### About:
+**Crystalized Experience Blocks**s are simply a full block of <img src="../ass-sets/items/crystalized_experience.png" class="inline-img"/> [**Crystalized Experience**](/items/misc.html#crystalized-experience)
+
+### Crafting:
+
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Crystalized Experience Block</span> <img src="../ass-sets/blocks/crystalized_experience_block.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Crystalized Experience</span> <img src="../ass-sets/items/crystalized_experience.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Crystalized Experience</span> <img src="../ass-sets/items/crystalized_experience.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Crystalized Experience</span> <img src="../ass-sets/items/crystalized_experience.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Crystalized Experience</span> <img src="../ass-sets/items/crystalized_experience.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Crystalized Experience</span> <img src="../ass-sets/items/crystalized_experience.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Crystalized Experience</span> <img src="../ass-sets/items/crystalized_experience.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Crystalized Experience</span> <img src="../ass-sets/items/crystalized_experience.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Crystalized Experience</span> <img src="../ass-sets/items/crystalized_experience.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Crystalized Experience</span> <img src="../ass-sets/items/crystalized_experience.png"/> </div>
+  </div>
+</div>
 
 ## Endslate
 
@@ -133,6 +215,8 @@ This article is incomplete! So it may lack details or crucial information.
 |Conducts Redstone|No|
 
 ### About:
+**Endslate** is [The Ends](https://minecraft.wiki/w/The_End) variant of <img src="https://minecraft.wiki/images/Deepslate_%28UD%29_JE3.png" class="inline-img"/> [**Deepslate**](https://minecraft.wiki/w/Deepslate)
+- It replaces all End stone below $y=32$
 
 ## Spew
 
@@ -147,3 +231,7 @@ This article is incomplete! So it may lack details or crucial information.
 |Conducts Redstone|No|
 
 ### About:
+**Spews** are found in [Nether Springs](/features.html#nether-springs)
+- They emmit smoke and occasionally spew lava over the water.
+
+![immg](../ass-sets/nether_spring.png)

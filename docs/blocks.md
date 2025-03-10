@@ -2,8 +2,8 @@
 outline: deep
 ---
 
-# Blocks
-
+# Blocks (discombobulation)
+## List of block types:
 
 
 <a href="/Vanilla-Upgrade-Wiki/blocks/functional.html">

@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Everything you need to know about Vanilla Upgrade!",
   head: [['link', { rel: 'icon', href: 'https://github.com/Villagecool/Vanilla-Upgrade-Wiki/raw/refs/heads/main/docs/ass-sets/favicon.ico' }]],
   base: '/Vanilla-Upgrade-Wiki/',
+  markdown: { math: true },
   ignoreDeadLinks: true,
   themeConfig: {
     search: {

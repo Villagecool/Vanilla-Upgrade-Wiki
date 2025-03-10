@@ -1,6 +1,8 @@
 # Blocks Families
 ::: warning Incomplete Article
 This article is incomplete! So it may lack details or crucial information.
+
+**Reason: I *REALLY* dont want to add crafting recipies for all of these 😅** just use the recipie book >:3
 :::
 
 ## Azalea Wood
@@ -61,7 +63,9 @@ This article is incomplete! So it may lack details or crucial information.
   <div v-if="isOpen" class="info-box" v-html="compiledMarkdownAza"></div>
 </transition>
 
-Yummy
+### About:
+**Azalea Wood** is a simple addition to give fully grown [**Azalea Bushes**](https://minecraft.wiki/w/Azalea) a custom woodset
+![img](../ass-sets/azalea_tree.png)
 
 </div>
 :::
@@ -158,7 +162,16 @@ Yummy
   <div v-if="isOpena" class="info-box" v-html="compiledMarkdownEla"></div>
 </transition>
 
-Yummy
+### About: 
+The **Elax** woodset originates from the respective biome in [The End](https://minecraft.wiki/w/The_End)
+
+Most of Elax Wood has a unique trait:
+- Stepping on Elax Blocks without a supporting block underneath will cause it to **shake**
+- After stepping off, the respective block will fall to the ground
+
+<img src="../ass-sets/elax_demo.gif" width=224px/>
+
+- The design of the floating trees was inspired by some weird trees I saw in [Cyberchase](https://en.wikipedia.org/wiki/Cyberchase)
 
 </div>
 
@@ -232,7 +245,12 @@ Yummy
   <div v-if="isOpenp" class="info-box" v-html="compiledMarkdownPal"></div>
 </transition>
 
-Yummy
+### About:
+The **Palm** woodset unsuprisingly comes from palm trees
+![img](../ass-sets/palm_tree.png)
+- Palm tree's are found near beaches and oasises in the desert
+- They can also be found in [**Saloons**](/features.html#saloon)
+- The door was originally a full block before it was changed to resemble saloon doors.
 
 </div>
 :::
@@ -281,7 +299,12 @@ Yummy
   <div v-if="isOpenc" class="info-box" v-html="compiledMarkdownCom"></div>
 </transition>
 
-Yummy
+[**Compressed Copper**](/items/misc.html#compressed-copper) is a new variant for [Copper](https://minecraft.wiki/w/Copper)
+- Compressed Copper is the base for a lot of the [Advanced](/advanced_system.html) blocks and items used in the addon.
+
+### It is important to note **Doors and Trapdoors** are locked when not powered by redstone.
+- Once they are powered, then they can be opened like a normal door.
+- This text is emphasized because I think it would be easy to miss lol
 
 </div>
 
@@ -372,7 +395,34 @@ Yummy
   <div v-if="isOpeng" class="info-box" v-html="compiledMarkdownGlo"></div>
 </transition>
 
-Yummy
+**Glorium** and **Gloricallium** is the base for a lot of the other new fancy tech used in the addon
+- It is found in [**Glorium Caverns**](/features.html#glorium-cavern) found in ocean caves
+- The cystals found in the biome can be harvested to create **Gloricallium**
+
+### Creating Gloricalium
+Gloicalium has a process of creation similar to **Netherite**
+1. Smelt a **Glorium Shard**
+
+<div class="smelting-background">
+    <div class="smelting-item-result"> <span class="c-tooltip-text">Gloricalium Scrap</span> <img src="../ass-sets/items/gloricalium_scrap.png"/> </div>
+    <div class="smelting-item-input"> <span class="c-tooltip-text">Glorium Shard</span> <img src="../ass-sets/items/glorium_shard.png"/> </div>
+    <div class="smelting-item-fuel"> <span class="c-tooltip-text">Any Fuel</span> <img src="https://minecraft.wiki/images/Coal_JE4_BE3.png"/> </div>
+</div>
+
+2. Combine the scrap with [**Iron Nuggets**](https://minecraft.wiki/w/Iron_Nugget)
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Gloricalium Sheet</span> <img src="../ass-sets/items/gloricalium_sheet.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gloricalium Scrap</span> <img src="../ass-sets/items/gloricalium_scrap.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gloricalium Scrap</span> <img src="../ass-sets/items/gloricalium_scrap.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Gloricalium Scrap</span> <img src="../ass-sets/items/gloricalium_scrap.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Nugget</span> <img src="https://minecraft.wiki/images/Iron_Nugget_JE1_BE1.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Nugget</span> <img src="https://minecraft.wiki/images/Iron_Nugget_JE1_BE1.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Nugget</span> <img src="https://minecraft.wiki/images/Iron_Nugget_JE1_BE1.png"/> </div>
+  </div>
+</div>
+
+These sheets can then be used for a number of different components
 
 </div>
 
@@ -422,7 +472,8 @@ Yummy
   <div v-if="isOpens" class="info-box" v-html="compiledMarkdownSou"></div>
 </transition>
 
-Yummy
+**Soul Sandstone** is a sandstone variant of [Sandstone](https://minecraft.wiki/w/Sandstone) and it's variants.
+- The carved Sandstone is suppose to resemble a [Ghast](https://minecraft.wiki/w/Ghast)
 
 </div>
 :::
@@ -610,8 +661,8 @@ const generateBlockInfo = ({ name, file, vc, breakingTime, blastResistance = "_N
 |Flammable|${flammable}|
 |Conducts Redstone|No|
 ${placement ? `|Placement Style|${placement}|\n` : ""}
-### About:
-${info}
+
+${info ? `### About:\n${info}` : ''}
 `;
 
 const infoAza = blockDataAza.reduce((acc, block, index) => {
