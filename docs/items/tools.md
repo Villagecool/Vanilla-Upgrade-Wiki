@@ -112,13 +112,16 @@ The copper wrench is a tool that can be used to rotate blocks 90 degrees
 
 ### About:
 
-## Unwritten Scroll
+## Scroll
 
-![img](../ass-sets/items/unwritten_scroll.png)
-`vc:unwritten_scroll`
+<div class="kinda-fancy-menu" width="fit-content"> 
+<div class="img"><img src="../ass-sets/items/scroll.png"><code data-v-4a89f8d7="">vc:scroll</code></div>
+<div class="img"><img src="../ass-sets/items/unwritten_scroll.png"><code data-v-4a89f8d7="">vc:unwritten_scroll</code></div>
+</div>
+
 | Component | Value |
 |---|---|
-|Stackable|Yes (64)|
+|Stackable|No|
 |Enchantable|No|
 |Deals Damage|No|
 

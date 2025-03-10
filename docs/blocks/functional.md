@@ -170,10 +170,27 @@
 |Conducts Redstone|No|
 
 ### About:
+**Carnavorus Chorus Plant** spawn as the source of odd growth in the End Waste
+When approached by the player, stems will rapidly extend out of the center of the plant
+- They can grow 2-5 blocks high
+- If they grow 3+ blocks high, it will attempt to attack the player by emmiting sickening pollen
+  - This pollen will give the player <img src="https://minecraft.wiki/images/EffectSprite_weakness.png?49b93" class="inline-img"/> Weakness, <img src="https://minecraft.wiki/images/EffectSprite_slowness.png?49b93" class="inline-img"/> Slowness, and <img src="https://minecraft.wiki/images/EffectSprite_nausea.png?49b93" class="inline-img"/> Nausea.
+
+<img src="../ass-sets/chorus_poofs.gif" width=224px/>
+
+- Around the chorus growth, <img src="../ass-sets/blocks/rooted_end_stone.png" class="inline-img"/> **Rooted End Stone** will appear.
+  - When stepped on, small chompers will nibble at your feet, dealing 1-2<img class="heart"/> of damage
+
+  <img src="../ass-sets/chorus_chomper.png" width=224px/>
+
+- The plant was inspired by this plant by Minecraft Dungeons, and the plants from <img src="https://m.media-amazon.com/images/I/51sUAIgqOvL._SL500_.jpg" class="inline-img"/> [a book i read a while ago](https://www.goodreads.com/book/show/50215833-bloom)
+
+<img src="https://i.redd.it/i-recreated-the-unused-chorus-plant-from-the-echoing-void-v0-j7fl1qfsa3e81.jpg?width=611&format=pjpg&auto=webp&s=57ff239fb8455c460c890749bc2ccf6bde242af5" width=224px/>
 
 ## Gunpowder Line
 
-![img](../ass-sets/blocks/gunpowder_line.png)
+<img style="image-rendering: pixelated;width: 112px;" src="../ass-sets/blocks/gunpowder_line.png"/>
+
 `vc:gunpowder_line`
 | Component | Value |
 |---|---|
@@ -184,6 +201,8 @@
 |Conducts Redstone|No|
 
 ### About:
+<img src="https://minecraft.wiki/images/Gunpowder_JE2_BE2.png" class="inline-img"/> **Gunpowder** now should be placeable on the ground.
+- When lit with a <img src="https://minecraft.wiki/images/Flint_and_Steel_JE4_BE2.png" class="inline-img"/> **Flint and Steel** the gunpowder will begin to burst in a slow chain, igniting any Gunpowder and <img src="https://minecraft.wiki/images/thumb/TNT_JE3_BE2.png/150px-TNT_JE3_BE2.png?62989" class="inline-img"/> **TNT** in it's path.
 
 ## Knowlage Harvester
 
@@ -199,6 +218,27 @@
 |Placement Style|Directional|
 
 ### About:
+**Knowlage Harvesters** are used to store and manage <img src="../ass-sets/items/xp.png" class="inline-img"/> **Experience** and <img src="../ass-sets/items/crystalized_experience.png" class="inline-img"/> **Crystalized Experience**
+- Crystalized Experience can be obtained from [**Frozen Feathers**](/items/tools.html#frozen-feather)
+- So far, there are 2 main functions of the Knowlage Harvester:
+  1. Crystalized Experience can be harvested back into actual Expeirence
+  2. Paper can be used to store levels of xp onto <img src="../ass-sets/items/scroll.png" class="inline-img"/> [**Scrolls**](/items/tools.html#scroll)
+
+### Crafting
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Knowladge Harvester</span> <img src="../ass-sets/blocks/knowlage_harvester.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Book</span> <img src="https://minecraft.wiki/images/Book_JE1_BE1.png"/>  </div>
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Amethyst Shard</span> <img src="https://minecraft.wiki/images/Amethyst_Shard_JE2_BE1.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Obsidian</span> <img src="https://minecraft.wiki/images/Obsidian_JE3_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Amethyst Shard</span> <img src="https://minecraft.wiki/images/Amethyst_Shard_JE2_BE1.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Obsidian</span> <img src="https://minecraft.wiki/images/Obsidian_JE3_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cystalized Experience Block</span> <img src="../ass-sets/blocks/crystalized_experience_block.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Obsidian</span> <img src="https://minecraft.wiki/images/Obsidian_JE3_BE2.png"/> </div>
+  </div>
+</div>
 
 ## Pumice
 
@@ -213,7 +253,8 @@
 |Conducts Redstone|No|
 
 ### About:
-**Pumice** is a lava sponge
+**Pumice** serves as a Lava alternative for a <img class="inline-img" src="https://minecraft.wiki/images/thumb/Sponge_JE3_BE3.png/150px-Sponge_JE3_BE3.png?ded7d"/> [**Sponge**](https://minecraft.wiki/w/Sponge)
+- If it asorbs any lava, it will turn into <img class="inline-img" src="../ass-sets/blocks/saturated_pumice.png"/> [**Saturated Pumice**](/blocks/functional.html#saturated-pumice)
 
 ## Saturated Pumice
 
@@ -228,7 +269,8 @@
 |Conducts Redstone|No|
 
 ### About:
-**Saturated Pumice** is a wet lava sponge
+**Saturated Pumice** serves as a Lava alternative for a <img class="inline-img" src="https://minecraft.wiki/images/Wet_Sponge_JE2_BE2.png?ed533"/> [**Wet Sponge**](https://minecraft.wiki/w/Sponge)
+- When interacted with a <img class="inline-img" src="https://minecraft.wiki/images/Bucket_JE2_BE2.png"/> **Bucket**, the lava will be extracted, and it will return to [Normal](/blocks/functional.html#pumice)
 
 ## Rotator
 
@@ -254,19 +296,21 @@
 - Blocks that cannot be moved by pistons cannot be rotated
 ![img](https://media.forgecdn.net/attachments/description/null/description_925874f4-1d6d-4627-b9f9-e13580dc9ccc.gif)
 
-## Saturated Pumice
-
-![img](../ass-sets/blocks/saturated_pumice.png)
-`vc:saturated_pumice`
-| Component | Value |
-|---|---|
-|Breaking time (secs)|5|
-|Luminous|No|
-|Blast resistance|_Not Set_|
-|Flammable|No|
-|Conducts Redstone|No|
-
-### About:
+### Crafting
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Rotator</span> <img src="../ass-sets/blocks/rotator.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Any Planks</span> <img src="https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png"/>  </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Any Planks</span> <img src="https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png"/>  </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Any Planks</span> <img src="https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png"/>  </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cobblestone</span> <img src="https://minecraft.wiki/images/Cobblestone_JE5_BE3.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Copper Wrench</span> <img src="../ass-sets/items/copper_wrench.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cobblestone</span> <img src="https://minecraft.wiki/images/Cobblestone_JE5_BE3.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cobblestone</span> <img src="https://minecraft.wiki/images/Cobblestone_JE5_BE3.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Redstone</span> <img style="image-rendering: pixelated;" src="https://minecraft.wiki/images/Invicon_Redstone.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cobblestone</span> <img src="https://minecraft.wiki/images/Cobblestone_JE5_BE3.png"/> </div>
+  </div>
+</div>
 
 ## Sawmill
 
@@ -281,3 +325,25 @@
 |Conducts Redstone|No|
 
 ### About:
+The **Sawmill** is a Wood variant to the <img src="https://minecraft.wiki/images/Stonecutter_JE2_BE1.gif" class="inline-img"/> [**Stonecutter**](https://minecraft.wiki/w/Stonecutter)
+- Placing a <img src="https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png?d9efa" class="inline-img"/> [**Plank**](https://minecraft.wiki/w/Planks) into it's corresponding slot, will convert it into that shape.
+- Custom planks do not have a sign variant
+- I actually did the math on all of these, relative to the model pixels, on how many of each item you should get.
+
+![img](../ass-sets/sui.png)
+
+### Crafting
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Sawmill</span> <img src="../ass-sets/blocks/sawmill.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Ignot</span> <img src="https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png"/> </div>
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Any Planks</span> <img src="https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png"/>  </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Any Planks</span> <img src="https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png"/>  </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Any Planks</span> <img src="https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png"/>  </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Stick</span> <img src="https://minecraft.wiki/images/Stick_JE1_BE1.png?1fc15"/> </div>
+    <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Stick</span> <img src="https://minecraft.wiki/images/Stick_JE1_BE1.png?1fc15"/> </div>
+  </div>
+</div>
