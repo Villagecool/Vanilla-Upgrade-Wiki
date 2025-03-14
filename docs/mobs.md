@@ -241,7 +241,7 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 - Termites will go out and grab blocks of wood to take back to their <img src="./ass-sets/blocks/termite_mound.png" class="inline-img"/> **Nest**
   - They do not use wood that is not from **The Overworld**
   - The wood they collect can be harvested with a <img src="https://minecraft.wiki/images/Invicon_Hopper.png?2d17e" class="inline-img"> [Hopper](https://minecraft.wiki/w/Hopper) under the nest
-- Termites nammed "Toymite" will eat as much wood as they possibly can and wont go back to their nest
+- Termites named "Toymite" will eat as much wood as they possibly can and won't go back to their nest
   - This is a refrence to an episode of [Popeye the Salor Man](https://en.wikipedia.org/wiki/Popeye) where termites ruthlessly attack his house
 
 ### Sounds
