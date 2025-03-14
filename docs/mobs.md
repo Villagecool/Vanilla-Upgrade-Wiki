@@ -210,7 +210,7 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 <img src="./ass-sets/items/bragoneese.png" class="inline-img"/>|Gives Speed IV for 5 seconds, afterward gives Slowness (random level) for 5 seonds|
 <img src="./ass-sets/items/mudfruit.png" class="inline-img"/>|Gives haste IV, Hunger (random level) and Oozing|
 <img src="./ass-sets/items/maganset.png" class="inline-img"/>|For 50 seconds, Strength 20 will be given for a random amount of time<br>for the remaining time, Blindness and Slowness will be given
-<img src="https://minecraft.wiki/images/Apple_JE3_BE3.png?f1cc7" class="inline-img"/>|Makes the user spit a seed|
+<img src="https://minecraft.wiki/images/Melon_Slice_JE2_BE2.png?b8c6b" class="inline-img"/>|Makes the user spit a seed|
 <img src="./ass-sets/items/spaticius.png" class="inline-img"/>|Gives Slow Falling IV and a random level of Weakness for 50 seconds
 <img src="./ass-sets/items/charhood.png" class="inline-img"/>|Gives Jump Boost IV and a random level of Slowness for 50 seconds
 <img src="./ass-sets/items/tomato.png" class="inline-img"/>|Gives Regeneration II-III and set the user on fire for 60 seconds
