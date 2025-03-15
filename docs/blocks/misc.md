@@ -34,6 +34,26 @@
 **Cattail**s are a new plant that can be found in rivers or beaches.
 - They lack much other purpose
 
+## Coconut
+<img src="../ass-sets/blocks/coconut.png" style="display:inline-block;"/>
+<img src="../ass-sets/blocks/coconut-block.png" style="display:inline-block;"/>
+
+`vc:coconut`
+|Component|Value|
+|---|---|
+|Breaking time (secs)|2|
+|Luminous|No|
+|Blast resistance|0|
+|Flammable|Yes (5)|
+|Conducts Redstone|No|
+|Waterloggabe|No|
+|Placement Style: |Positional|
+
+### About
+**Coconuts** are a new plant/food that spawns on [Palm Trees](/featues.html#palm-tree)
+- When mined, they will fall to the ground (Unless silk touch is used)
+- When they fall, they will split into Two <img src="../ass-sets/items/coconut_slice.png" class="inline-img"/> [Coconut Slices](/items/food.html#coconut-slice)
+
 ## Green Pedals
 
 ![img](../ass-sets/blocks/green_pedals.png)
@@ -113,6 +133,26 @@
     <div class="crafting-grid-item"> <span class="c-tooltip-text">Gold Ingot</span> <img src="https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6"/> </div>
   </div>
 </div>
+
+## Orchid Cactus Flower
+![img](../ass-sets/blocks/flowering_cactus.png)
+
+`vc:orchid_cactus_flower`
+|Component|Value|
+|---|---|
+|Breaking time (secs)|0.5|
+|Luminous|No|
+|Blast resistance|*Not Set*|
+|Flammable|No|
+|Conducts Redstone|No|
+|Waterloggabe|No|
+
+### About
+**Orchid Cactus Flowers** are a variant of [Cactus Flower](https://minecraft.wiki/w/Cactus_Flower)
+- Because of their large shape, they neglect damage on the top of a cactus
+  - As a side effect, it's hitbox is twice as high as it normally would be
+- Orchid Cactus flowers were originally called Cactus Flower's (or Flowering Cactus) until [the vanilla One](https://minecraft.wiki/w/Cactus_Flower) was added.
+
 
 ## Waterlily with Lotus
 

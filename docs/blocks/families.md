@@ -6,10 +6,10 @@ This article is incomplete! So it may lack details or crucial information.
 :::
 
 ## Azalea Wood
-::: details Click to Expand ![img](../ass-sets/azalea.png) 
+<!--::: details Click to Expand ![img](../ass-sets/azalea.png) -->
 
 <div class="info-box">
-<div class="radioswitcher-inputs">
+<div v-if="isOpen" class="radioswitcher-inputs">
   <label class="radioswitcher">
     <input type="radio" name="radioswitcher" v-model="selectedInfoa" value="option1">
     <span class="name"><div class="img"><img src="../ass-sets/blocks/azalea_planks.png" width="25" height="25"></div>Planks</span>
@@ -68,13 +68,13 @@ This article is incomplete! So it may lack details or crucial information.
 ![img](../ass-sets/azalea_tree.png)
 
 </div>
-:::
+<!--:::-->
 
 ## Elax Wood/Biome 
-::: details Click to Expand ![img](../ass-sets/elax.png) 
+<!-- ::: details Click to Expand ![img](../ass-sets/elax.png) -->
 
 <div class="info-box">
-<div class="radioswitcher-inputs">
+<div v-if="isOpena"class="radioswitcher-inputs">
   <label class="radioswitcher">
     <input type="radio" name="radioswitcher" v-model="selectedInfoe" value="eoption1">
     <span class="name"><div class="img"><img src="../ass-sets/blocks/zalu_block.png" width="25" height="25"></div>Zalu Block</span>
@@ -175,13 +175,13 @@ Most of Elax Wood has a unique trait:
 
 </div>
 
-:::
+<!--:::-->
 
 ## Palm Wood 
-::: details Click to Expand ![img](../ass-sets/palm.png)
+<!--::: details Click to Expand ![img](../ass-sets/palm.png)-->
 
 <div class="info-box">
-<div class="radioswitcher-inputs">
+<div v-if="isOpenp" class="radioswitcher-inputs">
   <label class="radioswitcher">
     <input type="radio" name="radioswitcher" v-model="selectedInfop" value="poption5">
         <span class="name"><div class="img"><img src="../ass-sets/blocks/palm_planks.png" width="25" height="25"></div>Planks</span>
@@ -253,13 +253,13 @@ The **Palm** woodset unsuprisingly comes from palm trees
 - The door was originally a full block before it was changed to resemble saloon doors.
 
 </div>
-:::
+<!--:::-->
 
 ## Compressed Copper 
-::: details Click to Expand ![img](../ass-sets/compressed_copper.png)
+<!--::: details Click to Expand ![img](../ass-sets/compressed_copper.png)-->
 
 <div class="info-box">
-<div class="radioswitcher-inputs">
+<div v-if="isOpenc" class="radioswitcher-inputs">
   <label class="radioswitcher">
     <input type="radio" name="radioswitcher" v-model="selectedInfoc" value="coption2">
         <span class="name"><div class="img"><img src="../ass-sets/blocks/compressed_copper_block.png" width="25" height="25"></div>Block</span>
@@ -308,13 +308,13 @@ The **Palm** woodset unsuprisingly comes from palm trees
 
 </div>
 
-:::
+<!--:::-->
 
 ## Glorium 
-::: details Click to Expand ![img](../ass-sets/glorium.png)
+<!--::: details Click to Expand ![img](../ass-sets/glorium.png)-->
 
 <div class="info-box">
-<div class="radioswitcher-inputs">
+<div v-if="isOpeng" class="radioswitcher-inputs">
   <label class="radioswitcher">
     <input type="radio" name="radioswitcher" v-model="selectedInfog" value="goption2">
         <span class="name"><div class="img"><img src="../ass-sets/blocks/glowing_mushroom.png" width="25" height="25"></div>Glowing Mushroom</span>
@@ -426,13 +426,13 @@ These sheets can then be used for a number of different components
 
 </div>
 
-:::
+<!--:::-->
 
 ## Soul Sandstone 
-::: details Click to Expand ![img](../ass-sets/soulsandstone.png)
+<!--::: details Click to Expand ![img](../ass-sets/soulsandstone.png)-->
 
 <div class="info-box">
-<div class="radioswitcher-inputs">
+<div v-if="isOpens" class="radioswitcher-inputs">
   <label class="radioswitcher">
     <input type="radio" name="radioswitcher" v-model="selectedInfos" value="soption2">
         <span class="name"><div class="img"><img src="../ass-sets/blocks/soul_sandstone.png" width="25" height="25"></div>Sandstone</span>
@@ -476,8 +476,7 @@ These sheets can then be used for a number of different components
 - The carved Sandstone is suppose to resemble a [Ghast](https://minecraft.wiki/w/Ghast)
 
 </div>
-:::
-##
+<!--:::-->
 
 <script setup>
 import { computed, ref } from "vue";

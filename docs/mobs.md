@@ -205,17 +205,16 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 - Here is a chart of all the effects you can get
 
 |Fruit|Spiked Cocojuice Effect|
-|--|--|
-<img src="https://minecraft.wiki/images/Apple_JE3_BE3.png?f1cc7" class="inline-img"/>|Temporarily Restores you to full health|
-<img src="./ass-sets/items/bragoneese.png" class="inline-img"/>|Gives Speed IV for 5 seconds, afterward gives Slowness (random level) for 5 seonds|
-<img src="./ass-sets/items/mudfruit.png" class="inline-img"/>|Gives haste IV, Hunger (random level) and Oozing|
-<img src="./ass-sets/items/maganset.png" class="inline-img"/>|For 50 seconds, Strength 20 will be given for a random amount of time<br>for the remaining time, Blindness and Slowness will be given
-<img src="https://minecraft.wiki/images/Melon_Slice_JE2_BE2.png?b8c6b" class="inline-img"/>|Makes the user spit a seed|
-<img src="./ass-sets/items/spaticius.png" class="inline-img"/>|Gives Slow Falling IV and a random level of Weakness for 50 seconds
-<img src="./ass-sets/items/charhood.png" class="inline-img"/>|Gives Jump Boost IV and a random level of Slowness for 50 seconds
-<img src="./ass-sets/items/tomato.png" class="inline-img"/>|Gives Regeneration II-III and set the user on fire for 60 seconds
-<img src="./ass-sets/items/sea_pineapple.png" class="inline-img"/>|Gives Water Breathing and Nausea for 500 seconds
-<img src="https://minecraft.wiki/images/Chorus_Fruit_JE2_BE2.png" class="inline-img"/>|Teleports the user 5 blocks away from where they are standing
+|--|--|<a href="https://minecraft.wiki/w/Apple"><img src="https://minecraft.wiki/images/Apple_JE3_BE3.png?f1cc7" class="inline-img"/></a>|Temporarily Restores you to full health|
+<a href="/Vanilla-Upgrade-Wiki/items/food.html#bragoneese"><img src="./ass-sets/items/bragoneese.png" class="inline-img"/></a>|Gives Speed IV for 5 seconds, afterward gives Slowness (random level) for 5 seonds|
+<a href="/Vanilla-Upgrade-Wiki/items/food.html#mudfruit"><img src="./ass-sets/items/mudfruit.png" class="inline-img"/></a>|Gives haste IV, Hunger (random level) and Oozing|
+<a href="/Vanilla-Upgrade-Wiki/items/food.html#maganset"><img src="./ass-sets/items/maganset.png" class="inline-img"/></a>|For 50 seconds, Strength 20 will be given for a random amount of time<br>for the remaining time, Blindness and Slowness will be given
+<a href="https://minecraft.wiki/w/Melon_Slice"><img src="https://minecraft.wiki/images/Melon_Slice_JE2_BE2.png?b8c6b" class="inline-img"/></a>|Makes the user spit a seed|
+<a href="/Vanilla-Upgrade-Wiki/items/food.html#spaticius"><img src="./ass-sets/items/spaticius.png" class="inline-img"/></a>|Gives Slow Falling IV and a random level of Weakness for 50 seconds
+<a href="/Vanilla-Upgrade-Wiki/items/food.html#charhood"><img src="./ass-sets/items/charhood.png" class="inline-img"/></a>|Gives Jump Boost IV and a random level of Slowness for 50 seconds
+<a href="/Vanilla-Upgrade-Wiki/items/food.html#tomato"><img src="./ass-sets/items/tomato.png" class="inline-img"/></a>|Gives Regeneration II-III and set the user on fire for 60 seconds
+<a href="/Vanilla-Upgrade-Wiki/items/food.html#sea-pineapple"><img src="./ass-sets/items/sea_pineapple.png" class="inline-img"/></a>|Gives Water Breathing and Nausea for 500 seconds
+<a href="https://minecraft.wiki/w/Chorus_Fruit"><img src="https://minecraft.wiki/images/Chorus_Fruit_JE2_BE2.png" class="inline-img"/></a>|Teleports the user 5 blocks away from where they are standing
 
 ### Sounds
 |Sound|Definition|Id|
