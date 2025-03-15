@@ -205,7 +205,8 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 - Here is a chart of all the effects you can get
 
 |Fruit|Spiked Cocojuice Effect|
-|--|--|<a href="https://minecraft.wiki/w/Apple"><img src="https://minecraft.wiki/images/Apple_JE3_BE3.png?f1cc7" class="inline-img"/></a>|Temporarily Restores you to full health|
+|--|--|
+<a href="https://minecraft.wiki/w/Apple"><img src="https://minecraft.wiki/images/Apple_JE3_BE3.png?f1cc7" class="inline-img"/></a>|Temporarily Restores you to full health|
 <a href="/Vanilla-Upgrade-Wiki/items/food.html#bragoneese"><img src="./ass-sets/items/bragoneese.png" class="inline-img"/></a>|Gives Speed IV for 5 seconds, afterward gives Slowness (random level) for 5 seonds|
 <a href="/Vanilla-Upgrade-Wiki/items/food.html#mudfruit"><img src="./ass-sets/items/mudfruit.png" class="inline-img"/></a>|Gives haste IV, Hunger (random level) and Oozing|
 <a href="/Vanilla-Upgrade-Wiki/items/food.html#maganset"><img src="./ass-sets/items/maganset.png" class="inline-img"/></a>|For 50 seconds, Strength 20 will be given for a random amount of time<br>for the remaining time, Blindness and Slowness will be given
