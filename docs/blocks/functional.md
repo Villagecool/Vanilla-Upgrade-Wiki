@@ -187,6 +187,64 @@ When approached by the player, stems will rapidly extend out of the center of th
 
 <img src="https://i.redd.it/i-recreated-the-unused-chorus-plant-from-the-echoing-void-v0-j7fl1qfsa3e81.jpg?width=611&format=pjpg&auto=webp&s=57ff239fb8455c460c890749bc2ccf6bde242af5" width=224px/>
 
+## Conjunction Rail
+![img](../ass-sets/blocks/conjunction_rail.png)
+
+`vc:rail_conjunction`
+|Component|Value|
+|---|---|
+|Breaking time (secs)|1|
+|Luminous|No|
+|Blast resistance|*Not Set*|
+|Flammable|No|
+|Conducts Redstone|No|
+|Waterloggabe|No|
+|Placement Style: |Directional|
+
+### About:
+**Conjunction Rail** are simply a 4-way rail
+- Due to limitations, the rail's function had to be recreating using scripts
+  - This comes at the cost of deceleration, opening some weird quirks
+  
+### Crafting
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Sawmill</span> <img src="../ass-sets/blocks/sawmill.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Ignot</span> <img src="https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Ignot</span> <img src="https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Ignot</span> <img src="https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Ignot</span> <img src="https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Stick</span> <img src="https://minecraft.wiki/images/Stick_JE1_BE1.png?1fc15"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Ignot</span> <img src="https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Ignot</span> <img src="https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Ignot</span> <img src="https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Iron Ignot</span> <img src="https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png"/> </div>
+  </div>
+</div>
+
+## Cursed Campfire
+![img](../ass-sets/blocks/cursed_campfire.png)
+
+`vc:cursed_campfire`
+|Component|Value|
+|---|---|
+|Breaking time (secs)|3|
+|Luminous|No|
+|Blast resistance|*Not Set*|
+|Flammable|Yes (5)|
+|Conducts Redstone|No|
+|Waterloggabe|No|
+|Placement Style: |Directional|
+### About:
+**Cursed Campfire** are created by **Smelting** <img src="../ass-sets/items/crystalized_experience.png" class="inline-img"/> [**Crystalized Experience**](/items/misc.html#crystalized-experience) on a <img src="https://minecraft.wiki/images/Invicon_Campfire.png" style="image-rendering: pixelated" class="inline-img"/> **Campfire**
+- When placed, you will be prompted to place <img src="../ass-sets/blocks/cursed_campfire.png" class="inline-img"/> another one to *Link the campfires*
+  - in **Survival Mode**, there is a 20 block limit to how far apart they can be placed (this is not present in creative mode)
+- When two campfires are linked, if **any entity** were **to fall on** the campfire, they will be teleported to the corresponding location.
+- This is useful for both player and item transport
+- When the campfire is broken, the linked campfire will also break
+
+<img src="../ass-sets/cursed.png" width="424px"/>
+
 ## Gunpowder Line
 
 <img style="image-rendering: pixelated;width: 112px;" src="../ass-sets/blocks/gunpowder_line.png"/>
@@ -203,6 +261,29 @@ When approached by the player, stems will rapidly extend out of the center of th
 ### About:
 <img src="https://minecraft.wiki/images/Gunpowder_JE2_BE2.png" class="inline-img"/> **Gunpowder** now should be placeable on the ground.
 - When lit with a <img src="https://minecraft.wiki/images/Flint_and_Steel_JE4_BE2.png" class="inline-img"/> **Flint and Steel** the gunpowder will begin to burst in a slow chain, igniting any Gunpowder and <img src="https://minecraft.wiki/images/thumb/TNT_JE3_BE2.png/150px-TNT_JE3_BE2.png?62989" class="inline-img"/> **TNT** in it's path.
+
+## Gyser Sand
+![img](../ass-sets/blocks/gyser_sand.png)
+
+`vc:gyser_sand`
+|Component|Value|
+|---|---|
+|Breaking time (secs)|0.75|
+|Luminous|No|
+|Blast resistance|0.5|
+|Flammable|No|
+|Conducts Redstone|Yes|
+|Waterloggabe|No|
+
+### About:
+**Gyser Sand** is a special block that can shoot **Blast of Water** into the air
+- Randomlly, or when fallen on, a 1-7 block tall beam of water will be emitted
+  - This height can be predetermened using the `vc:height` block state (use `/setblock`)
+  - When the water is entered, inside entities will be shot up
+- Gysers can be activated/deactivated using redstone
+- The are found on [beaches](https://minecraft.wiki/w/Beach)
+
+<img src="../ass-sets/gyser.png" width="242px"/>
 
 ## Knowlage Harvester
 
@@ -327,7 +408,7 @@ When approached by the player, stems will rapidly extend out of the center of th
 ### About:
 The **Sawmill** is a Wood variant to the <img src="https://minecraft.wiki/images/Stonecutter_JE2_BE1.gif" class="inline-img"/> [**Stonecutter**](https://minecraft.wiki/w/Stonecutter)
 - Placing a <img src="https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png?d9efa" class="inline-img"/> [**Plank**](https://minecraft.wiki/w/Planks) into it's corresponding slot, will convert it into that shape.
-- Custom planks do not have a sign variant
+- Custom planks do not have a button variant
 - I actually did the math on all of these, relative to the model pixels, on how many of each item you should get.
 
 ![img](../ass-sets/sui.png)

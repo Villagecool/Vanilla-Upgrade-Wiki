@@ -215,7 +215,7 @@ The **Charhood** is one of the 5 fruits of the <img src="../ass-sets/mobs/sparse
 ### About: 
 
 **Chocolate Lava Cake** is a final flavor of the <img src="https://minecraft.wiki/images/Invicon_Cake.png" style="image-rendering: pixelated;" class="inline-img"/> [Cake](https://minecraft.wiki/w/Cake) hierarchy, made with hot chocolate.
-- Because of the Hot Chocolate, Chocolate Cake gives higher food stats that both other cakes
+- Because of the Hot Chocolate, Chocolate Lava Cake gives higher food stats that both other cakes
 
 ### Crafting
 <div class="crafting-background">
@@ -380,6 +380,12 @@ A **Coconut Slice** is half of a full <img src="../ass-sets/blocks/coconut.png" 
 ### About: 
 **Corn** is a new crop that can be found in the wild or in [Jungle Villages](/features.html#jungle-village)
 - When placed in a <img src="https://minecraft.wiki/images/Jukebox_JE2_BE2.png" class="inline-img"/> [**Jukebox**](https://minecraft.wiki/w/Jukebox) and old meme will begin to play...
+### Sounds: 
+<audio controls>
+  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/music/game/records/its-corn.ogg?raw=true" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+
 
 
 ## Cornbread

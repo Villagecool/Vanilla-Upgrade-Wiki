@@ -5,7 +5,7 @@ This article is incomplete! So it may lack details or crucial information.
 Reason: some mob descriptions could be explained better with more visuals
 :::
 
-## Bandager
+## Bandager <img src="./ass-sets/mobs/spawn_eggs/bandager.png" class="spawn-egg"/>
 <img src="./ass-sets/mobs/bandager.png" width=121px/>
 
 `vc:bandager`
@@ -32,7 +32,7 @@ Reason: some mob descriptions could be explained better with more visuals
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/bandager/hurt1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/bandager/hurt2.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/bandager/hurt3.ogg?raw=true')">🔊</button>|Hurt|mob.bandager.hurt
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/bandager/death.ogg?raw=true')">🔊</button>|Death|mob.bandager.death
 
-## Copper Golem
+## Copper Golem <img src="./ass-sets/mobs/spawn_eggs/copper_golem.png" class="spawn-egg"/>
 <img src="./ass-sets/mobs/copper_golem.gif" width=121px/>
 
 `vc:copper_golem`
@@ -59,7 +59,7 @@ Reason: some mob descriptions could be explained better with more visuals
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/death1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/death2.ogg?raw=true')">🔊</button>|Death|mob.copper_golem.death
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape2.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape3.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape4.ogg?raw=true')">🔊</button>|Scrape|mob.copper_golem.releif
 
-## Giant
+## Giant <img src="./ass-sets/mobs/spawn_eggs/giant.png" class="spawn-egg"/>
 <img src="./ass-sets/mobs/giant.png" width=242px/>
 
 `vc:giant`
@@ -102,7 +102,7 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/giant/loud-explosion.ogg?raw=true')">🔊</button>|Explode|mob.giant.explode
 
 
-## Illusioner
+## Illusioner <img src="./ass-sets/mobs/spawn_eggs/illusioner.png" class="spawn-egg"/>
 <img src="./ass-sets/mobs/illusioner.png" width=121px/>
 
 `vc:llusioner`
@@ -115,6 +115,7 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 |Drops|<img src="./ass-sets/items/totem_of_illusion.png" class="inline-img"/><img src="https://minecraft.wiki/images/Bow_JE2_BE1.png" class="inline-img"/>|
 
 **Illusioners** were designed to represent both their [Java Edition](https://minecraft.wiki/w/Illusioner) and [Dungeons](https://minecraft.wiki/w/Dungeons:Illusioner) counterparts.
+- They are found in [Illusioner Huts](/features.html#illusioner-hut)
 - When attacking, it will shoot players, and village related mobs with it's bow
 - It can also preform one of two spells
   1. Give <img src="https://minecraft.wiki/images/Blindness_JE2_BE2.png?26abf" class="inline-img"/> blindness to nearby players 
@@ -123,6 +124,7 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
     - The clones do not do any actual damage to it's target (the hurt animation will still play however)
     <img src="./ass-sets/illusionspawn.gif"/>
 - After it is defeated, the Illusioner will drop a <img src="./ass-sets/items/totem_of_illusion.png" class="inline-img"/> [Totem of Illusion](/items/tools.html#totem-of-illusion)
+- Illusioners will attempt to turn [Red Sheep](https://minecraft.wiki/w/Sheep#Easter_eggs) to become blue, opposing the Evoker
 
 ### Sounds
 |Sound|Definition|Id|
@@ -134,9 +136,10 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/illusioner/prepare_mirror.ogg?raw=true')">🔊</button>|Prepare Mirror Move|mob.illusioner.prepare_mirror
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/illusioner/prepare_blind.ogg?raw=true')">🔊</button>|Prepare Blindness|mob.illusioner.prepare_blind
 
-## Melon Golem
+## Melon Golem <img src="./ass-sets/mobs/spawn_eggs/melon_golem.png" class="spawn-egg"/>
 <img src="./ass-sets/mobs/melon_golem.png" width=121px style="display:inline-block;"/>
 <img src="./ass-sets/mobs/speckled_melon_golem.png" width=121px style="display:inline-block;"/>
+<img src="./ass-sets/mobs/melon_golem_sheared.png" width=121px style="display:inline-block;"/>
 
 `vc:melon_golem`
 
@@ -154,7 +157,7 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 ### Sounds
 * Melon Golems just use [Snow Golem sounds](https://minecraft.wiki/w/Snow_Golem#Sounds)
 
-## Penguin
+## Penguin <img src="./ass-sets/mobs/spawn_eggs/penguin.png" class="spawn-egg"/>
 <img src="./ass-sets/mobs/penguin.png" width=121px style="display:inline-block;"/>
 <img src="./ass-sets/mobs/penguin_baby.png" width=121px style="display:inline-block;"/>
 
@@ -181,7 +184,7 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 |--|--|--|
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/penguin/S3_sfx_pet_RoyalPenguin_vocal_01.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/penguin/S3_sfx_pet_RoyalPenguin_vocal_02.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/penguin/S3_sfx_pet_RoyalPenguin_vocal_03.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/penguin/bleat.ogg?raw=true')">🔊</button>|Bleat|mob.penguin.bleat
 
-## Sparse
+## Sparse <img src="./ass-sets/mobs/spawn_eggs/sparse.png" class="spawn-egg"/>
 <img src="./ass-sets/mobs/sparse.png" width=121px/>
 
 `vc:sparse`
@@ -225,7 +228,7 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/sparse/death1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/sparse/death2.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/sparse/death3.ogg?raw=true')">🔊</button>|Death|mob.sparse.death
 
 
-## Termite
+## Termite <img src="./ass-sets/mobs/spawn_eggs/termite.png" class="spawn-egg"/>
 <img src="./ass-sets/mobs/termite.png" width=121px/>
 
 `vc:termite`
@@ -239,6 +242,7 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 
 **Termites** spawn is Deserts in colonies
 - Termites will go out and grab blocks of wood to take back to their <img src="./ass-sets/blocks/termite_mound.png" class="inline-img"/> **Nest**
+- They are found in [Termite Mounds](/features.html#termite-mound) in the desert
   - They do not use wood that is not from **The Overworld**
   - The wood they collect can be harvested with a <img src="https://minecraft.wiki/images/Invicon_Hopper.png?2d17e" class="inline-img"> [Hopper](https://minecraft.wiki/w/Hopper) under the nest
 - Termites named "Toymite" will eat as much wood as they possibly can and won't go back to their nest
@@ -247,7 +251,7 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 ### Sounds
 * Termites just use [Silverfish sounds](https://minecraft.wiki/w/Silverfish#Sounds)
 
-## Tumbleweed
+## Tumbleweed <img src="./ass-sets/items/tumbleweed.png" class="spawn-egg"/>
 <img src="./ass-sets/mobs/tumbleweed.png" width=121px/>
 
 `vc:tumbleweed`
@@ -286,6 +290,14 @@ export default {
 </script>
 
 <style>
+
+  .spawn-egg {
+    vertical-align:middle;
+    display:inline-block;
+    width:64px;
+    height:64px;
+    image-rendering:pixelated;
+  }
 .sound-button {
   position: inline;
   bottom: -10px; /* Adjust as needed */

@@ -23,7 +23,7 @@
   <div class="info-box" v-html="compblueNetherBrick"></div>
 </transition>
 
-**Blue Nether Bricks** are a blue variant of [Nether Bricks](https://minecraft.wiki/w/Nether_Bricks) that originate from [Warped Warts](/items/misc.html#warped-wart)
+**Blue Nether Bricks** are a blue variant of [Nether Bricks](https://minecraft.wiki/w/Nether_Bricks) that originate from [Warped Warts](/items/crops.html#warped-wart)
 - They are essentially the same as [Red Nether Bricks](https://minecraft.wiki/w/Red_Nether_Bricks)
 
 </div>
@@ -76,32 +76,6 @@ Placing a Carved Melon on two snow blocks will spawn a melon golem
 - they are created by shearing <img class="inline-img" src="https://minecraft.wiki/images/Invicon_Shears.png?b943a"> a Melon Block <img src="https://minecraft.wiki/images/Invicon_Melon.png?2fc17" class="inline-img">
 - Their id is misspelled as "mellon" due to vlliage not knowing how to spell
 
-## Snow Bricks
-
-<div class="info-box">
-<div class="radioswitcher-inputs">
-  <label class="radioswitcher">
-    <input type="radio" name="radioswitcher" v-model="selectedSB" value="1">
-        <span class="name"><div class="img"><img src="../ass-sets/blocks/snowbrick.png" width="25" height="25"></div>Block</span>
-  </label>
-  <label class="radioswitcher">
-    <input type="radio" name="radioswitcher" v-model="selectedSB" value="2">
-        <span class="name"><div class="img"><img src="../ass-sets/blocks/snow_brick_stairs.png" width="25" height="25"></div>Stairs</span>
-  </label>
-  <label class="radioswitcher">
-    <input type="radio" name="radioswitcher" v-model="selectedSB" value="3">
-        <span class="name"><div class="img"><img src="../ass-sets/blocks/snow_brick_slab.png" width="25" height="25"></div>Slab</span>
-  </label>
-</div>
-
-<transition name="slide">
-  <div class="info-box" v-html="compsnowBrick"></div>
-</transition>
-
-**Snow Bricks** are a set packed down blocks of Snow that can be used for construction.
-
-</div>
-
 ## Speckled Carved Mellon
 
 ![img](../ass-sets/blocks/carved_mellon_speckled.png)
@@ -136,7 +110,7 @@ Placing a Speckled Carved Melon on two snow blocks will spawn a snow golem with 
 |Conducts Redstone|No|
 
 ### About:
-*Charred Rocks* are the structure of nether springs found in lava lakes.
+*Charred Rocks* are the structure of [Nether Springs](/features.html#nether-springs) found in lava lakes.
 - They typically do not spawn anywhere else in the nether
 - <img src="../ass-sets/blocks/aloe_plant.png" class="inline-img"> [Aloe Plants](/items/crops.html#aloe-plant) can grow on these
 - They are extremely brittle, hence not being able to be crafted with
@@ -286,6 +260,32 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
     <div class="crafting-grid-item"><span class="c-tooltip-text">Glass</span> <img src="https://minecraft.wiki/images/Glass_JE4_BE2.png"/></div>
     <div class="crafting-grid-item"><span class="c-tooltip-text">Glass</span> <img src="https://minecraft.wiki/images/Glass_JE4_BE2.png"/></div>
   </div>
+</div>
+
+## Snow Bricks
+
+<div class="info-box">
+<div class="radioswitcher-inputs">
+  <label class="radioswitcher">
+    <input type="radio" name="radioswitcher" v-model="selectedSB" value="1">
+        <span class="name"><div class="img"><img src="../ass-sets/blocks/snowbrick.png" width="25" height="25"></div>Block</span>
+  </label>
+  <label class="radioswitcher">
+    <input type="radio" name="radioswitcher" v-model="selectedSB" value="2">
+        <span class="name"><div class="img"><img src="../ass-sets/blocks/snow_brick_stairs.png" width="25" height="25"></div>Stairs</span>
+  </label>
+  <label class="radioswitcher">
+    <input type="radio" name="radioswitcher" v-model="selectedSB" value="3">
+        <span class="name"><div class="img"><img src="../ass-sets/blocks/snow_brick_slab.png" width="25" height="25"></div>Slab</span>
+  </label>
+</div>
+
+<transition name="slide">
+  <div class="info-box" v-html="compsnowBrick"></div>
+</transition>
+
+**Snow Bricks** are a set packed down blocks of Snow that can be used for construction.
+
 </div>
 
 ## Soul Jack o' Lantern
@@ -531,7 +531,7 @@ const dirt = [`
 \`vc:dirt_stairs\`
 | Component | Value |
 |---|---|
-|Breaking time (secs)|3|
+|Breaking time (secs)|0.75|
 |Luminous|No|
 |Blast resistance|_Not Set_|
 |Flammable|No|
@@ -560,7 +560,7 @@ const dirt = [`
 \`vc:dirt_slab\`
 | Component | Value |
 |---|---|
-|Breaking time (secs)|3|
+|Breaking time (secs)|0.75|
 |Luminous|No|
 |Blast resistance|_Not Set_|
 |Flammable|No|
@@ -586,7 +586,7 @@ const dirt = [`
 const snow = [
   `## Snow Bricks
 
-![img](../ass-sets/blocks/snowbrick.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/snowbrick.png?raw=true)
 \`vc:snowbrick\`
 | Component | Value |
 |---|---|
@@ -597,7 +597,7 @@ const snow = [
 |Conducts Redstone|No|
 `, `## Snow Brick Stairs
 
-![img](../ass-sets/blocks/snow_brick_stairs.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/snow_brick_stairs.png?raw=true)
 \`vc:snow_brick_stairs\`
 | Component | Value |
 |---|---|
@@ -611,7 +611,7 @@ const snow = [
 `,
 `## Snow Brick Slab
 
-![img](../ass-sets/blocks/snow_brick_slab.png)
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/snow_brick_slab.png?raw=true)
 \`vc:snow_brick_slab\`
 | Component | Value |
 |---|---|

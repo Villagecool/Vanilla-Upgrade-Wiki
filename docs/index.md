@@ -11,7 +11,6 @@ hero:
 <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/logo-wiki.png?raw=true" alt="" width="80%" height="100"> 
 
 <h1 class="name" data-v-5a3e9999=""><span class="clip" data-v-5a3e9999="">Everything you need to know about Vanilla Upgrade!</span></h1>
-<h3 class="name" data-v-5a3e9999=""><span class="clip" data-v-5a3e9999="">Maybe not technically a <i>wiki</i></span></h3>
 
 <!-- From Uiverse.io by Admin12121 --> 
 ::: warning Incomplete Site
@@ -66,3 +65,5 @@ This wiki is incomplete! So it may lack details or crucial information.
   <div>
 </div></div></div></a>
 </div>
+
+<span class="clip" data-v-5a3e9999="">Want to make an edit? Use our [GitHub!](https://github.com/Villagecool/Vanilla-Upgrade-Wiki) via pull request.</span>

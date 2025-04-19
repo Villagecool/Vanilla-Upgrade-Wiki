@@ -18,8 +18,9 @@
 
 ## Cattail
 
-![img](../ass-sets/items/cattails.png)
-![img](../ass-sets/blocks/cattail.png)
+<img src="../ass-sets/items/cattails.png" style="display:inline-block;"/>
+<img src="../ass-sets/blocks/cattail.png" style="display:inline-block;"/>
+
 `vc:cattail`
 |Component|Value|
 |---|---|
@@ -74,7 +75,9 @@
 
 ## Lavender
 
-![img](../ass-sets/blocks/lavender.png)
+<img src="../ass-sets/blocks/lavender.png" style="display:inline-block;"/>
+<img src="../ass-sets/blocks/lavender_render.png" style="display:inline-block;width:112px;"/>
+
 `vc:lavender`
 | Component | Value |
 |---|---|
@@ -209,6 +212,41 @@
   </div>
 </div>
 
+## Cotton **Cube**
+![img](../ass-sets/blocks/cotton_block.png)
+
+`vc:cotton_block`
+|Component|Value|
+|---|---|
+|Breaking time (secs)|1.2|
+|Luminous|No|
+|Blast resistance|0|
+|Flammable|Yes (30)|
+|Conducts Redstone|No|
+|Waterloggabe|Yes|
+
+### About:
+As the name suggest, the **Cotton Cube** is a block of [Cotton Balls](/items/misc.html#cotton-ball)
+- Cotton **Cubes** are harder to walk on, with slower friction
+- Cotton **Cubes** are asorbant to water, and can be waterlogged
+
+### Crafting:
+
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Cotton <b>Cube</b></span> <img src="../ass-sets/blocks/cotton_block.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+  </div>
+</div>
+
 
 ## Crystalized Experience Block
 
@@ -260,7 +298,8 @@
 
 ## Spew
 
-![img](../ass-sets/blocks/spew.png)
+<img src="../ass-sets/blocks/spew.gif" width="112px"/>
+
 `vc:spew`
 | Component | Value |
 |---|---|

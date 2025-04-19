@@ -7,9 +7,15 @@
 - <img src="https://cdn.discordapp.com/avatars/770369880276729935/30597c9a59cdc702e63d3437de37fafc?size=1024" class="inline-img"/> **j.gu12?**: Artist
 - <img src="https://cdn.discordapp.com/avatars/931827359936561212/5183ac55e45308c57d19ab4b5978a75d?size=1024" class="inline-img"/> **"Pillagecool"**: Created Sparse Model, and some other things idr
 
+<br>
+
+- <img src="https://yt3.googleusercontent.com/SLwe711JWHr6TFgYmqzMlH_ltiLpwopYVulP15mupcya3Elin2mDQhiABjUB-wwbkDdTT4bfrfw=s1080-c-k-c0x00ffffff-no-rj" class="inline-img"/> [**Clorate 21**](https://www.youtube.com/@Cloro21) composed Subhour.
+- <img src="https://yt3.googleusercontent.com/SMYNSX1DUlfARdGGCs64ag1nUfJWIFsZ7fEM3cCW-0QuP2fj8mhpW35mcV7jtho6vP60Zf0iGA=s88-c-k-c0x00ffffff-no-rj" class="inline-img"/> [**For_Builds**](https://www.youtube.com/watch?v=CjOO9qrDg3c&t=1s&ab_channel=for%28inactiveacc%29) composed Mist.
+
 ### Other Contribution
 - <img src="https://i.redd.it/u87qr1xm44571.png" class="inline-img"/> [**Mojang**](https://en.wikipedia.org/wiki/Mojang_Studios) Created the amazing game this was built off of
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png" class="inline-img"/> [**learn.microsoft.com**](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/minecraft-server?view=minecraft-bedrock-stable) Only reason I was able to learn script
+- <img src="https://cdn.discordapp.com/avatars/792067255855742986/dcdadf07df621c3b1abc0c812a0dd5b0?size=1024" class="inline-img"/> [**Sunrise Studios**](https://api.sunrise-studio.site/translator/ts.html) created the translator used to translate Vanilla Upgrade into other languages.
 - <img src="https://dl.labymod.net/img/server/originrealms/icon@2x.png" class="inline-img"/> [**Origin Realms**](https://originrealms.com/) "Inspiration" for v1 😅
 - <img src="https://mcpedl.com/img/default-avatar.jpg" class="inline-img"/> [**Ramcor14_Player**](https://mcpedl.com/user/ramcor14-br/): I think they wrote the "setPermutaion" function idr
 - <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe4nu5x1GxoJD4MM_OphjhWDOEplyQN4AyOg&s" class="inline-img"/> [**Actions & Stuff**](https://www.minecraft.net/en-us/marketplace/pdp?id=61c7a786-d7ad-49e0-a710-817121cd9795) Animation Pack used in the release trailer

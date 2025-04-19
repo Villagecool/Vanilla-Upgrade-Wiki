@@ -26,6 +26,22 @@ This article is incomplete! So it may lack details or crucial information.
 |Deals Damage|No|
 
 ### About:
+**Cotton Balls** are the offspring of [Cotton Plants](/items/crops.html#cotton-seeds)
+
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Leather</span> <img src="https://minecraft.wiki/images/Leather_JE2_BE2.png?10fae"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Honeycomb</span> <img src="https://minecraft.wiki/images/Honeycomb_JE2_BE2.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Cotton Ball</span> <img src="../ass-sets/items/cotton_ball.png"/> </div>
+  </div>
+</div>
 
 ## Crystalized Experience
 
@@ -75,6 +91,29 @@ This article is incomplete! So it may lack details or crucial information.
 
 ### About:
 
+## Goat Horn (Roll)
+![img](../ass-sets/items/goat_horn_roll.png)
+`vc:goat_horn_roll`
+|Component|Value|
+|---|---|
+|Stackable|No|
+|Enchantable|No|
+|Deals Damage|No (1)|
+|Use Duration|204 Seconds (3:24)|
+### About:
+**Roll** is a brand new goat horn variant that can be found in [**Woodland Mansions**](https://minecraft.wiki/w/Woodland_Mansion)
+- Unlike more goat horns, the audio will stop playing when the player stops using the item.
+    - This is due to its unusually long length
+- The goat horn was sampled and tuned by Vlliage
+    - The sf2 can be downloaded [here](https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/item/horn/Goat%20Horn.sf2)
+- The midi was created on onlinesequencer, I cannot find the original, however
+
+### Sounds: 
+<audio controls>
+  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/item/horn/roll.ogg?raw=true" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+
 ## Mist Music Disc
 
 ![img](../ass-sets/items/music_disc_mist.png)
@@ -87,6 +126,12 @@ This article is incomplete! So it may lack details or crucial information.
 
 ### About:
 
+### Sounds: 
+<audio controls>
+  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/music/game/records/mist.ogg?raw=true" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+
 ## Subhour Music Disc
 
 ![img](../ass-sets/items/music_disc_subhour.png)
@@ -98,6 +143,14 @@ This article is incomplete! So it may lack details or crucial information.
 |Deals Damage|No|
 
 ### About:
+- Used in the trailer
+
+### Sounds: 
+<audio controls>
+  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/music/game/records/subhour.ogg?raw=true" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+
 
 ## Penguin Egg
 
