@@ -21,11 +21,11 @@ Pages not listed here may not be malicious or not supporting the original author
   <div>
 </div></div></div></a><br>
 
-<a href="https://modbay.org/user/villagecool/">
+<a href="https://modbay.org/mods/4361-vanilla-upgrade.html">
 <div class="SmallLinkCard">
   <div class="aimg"><img src="https://pbs.twimg.com/profile_images/1719976740452257792/EDG7_JYa_400x400.jpg" alt="" width="100" height="100"></div>
   <div class="textBox">
     <p class="h1">Modbay</p>
-    <p class="p">Page TBD</p>
+    <p class="p">https://modbay.org/mods/4361-vanilla-upgrade.html</p>
   <div>
 </div></div></div></a>
