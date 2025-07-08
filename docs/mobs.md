@@ -32,33 +32,6 @@ Reason: some mob descriptions could be explained better with more visuals
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/bandager/hurt1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/bandager/hurt2.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/bandager/hurt3.ogg?raw=true')">🔊</button>|Hurt|mob.bandager.hurt
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/bandager/death.ogg?raw=true')">🔊</button>|Death|mob.bandager.death
 
-## Copper Golem <img src="./ass-sets/mobs/spawn_eggs/copper_golem.png" class="spawn-egg"/>
-<img src="./ass-sets/mobs/copper_golem.gif" width=121px/>
-
-`vc:copper_golem`
-|Component|Value|
-|--|--|
-|Health points|24HP (<img class="heart"/> × 12)|
-|Behavior|Hostile|
-|Mob type|Illager, Monster|
-|Attack strength|**Melee**: 5HP <img class="heart"/><img class="heart"/><img class="halfheart"/><br>**Ranged**: Easy and normal: 2HP <img class="heart"/> – 5HP <img class="heart"/><img class="heart"/><img class="halfheart"/><br>Hard: 3HP <img class="heart"/><img class="halfheart"/> – 5HP <img class="heart"/><img class="heart"/><img class="halfheart"/>|
-|Drops|<img src="https://minecraft.wiki/images/Copper_Ingot_JE2_BE1.png?" class="inline-img"/><img src="./ass-sets/items/compressed_copper.png" class="inline-img"/>|
-
-**Copper Golems** are a lackluster implementation of the Mob from the 2021 Mob vote
-- They are intended to run up and press buttons
-  - This feature is not able to be well implemented
-- If oxidized, they will begin to slow in movement
-- This can be countered by waxing the golem
-- They can be created by stacking a Lightning Rod on a Block of Compressed Copper
-
-### Sounds
-|Sound|Definition|Id|
-|--|--|--|
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/idle1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/idle2.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/idle3.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/idle4.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/idle5.ogg?raw=true')">🔊</button>|Idle|mob.copper_golem.idle
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/hit1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/hit2.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/hit3.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/hit4.ogg?raw=true')">🔊</button>|Hurt|mob.copper_golem.hurt
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/death1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/death2.ogg?raw=true')">🔊</button>|Death|mob.copper_golem.death
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape2.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape3.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape4.ogg?raw=true')">🔊</button>|Scrape|mob.copper_golem.releif
-
 ## Giant <img src="./ass-sets/mobs/spawn_eggs/giant.png" class="spawn-egg"/>
 <img src="./ass-sets/mobs/giant.png" width=242px/>
 
@@ -266,6 +239,39 @@ The **Giant Zombie** is a boss mob that spawns from a brand new [Ominous Event](
 |Attack strength|4HP <img class="heart"/><img class="heart"/>|
 |Drops|<img src="https://minecraft.wiki/images/Stick_JE1_BE1.png?10fae" class="inline-img"/>|
 
+
+## Copper Golem <img src="./ass-sets/mobs/spawn_eggs/copper_golem.png" class="spawn-egg"/> <Badge type="danger" text="Removed"/>
+<img src="./ass-sets/mobs/copper_golem.gif" width=121px/>
+
+`vc:copper_golem`
+
+|Component|Value|
+|--|--|
+|Health points|16HP (<img class="heart"/> × 8)|
+|Behavior|Passive|
+|Mob type|Golem|
+|Drops|<img src="https://minecraft.wiki/images/Copper_Ingot_JE2_BE1.png?" class="inline-img"/><img src="./ass-sets/items/compressed_copper.png" class="inline-img"/>|
+
+::: danger Removed
+The copper golem was removed in v3.1.0 due to the base game copper golem being announced
+:::
+
+**Copper Golems** were a lackluster implementation of the Mob from the 2021 Mob vote
+- They were intended to run up and press buttons
+  - This feature was not able to be well implemented
+- If oxidized, they would begin to slow in movement
+- This could be countered by waxing the golem
+- They could be created by stacking a Lightning Rod on a Block of Compressed Copper
+
+- After being removed in v3.1.0, many of the Copper Golem's files are still present in the source code. It either been commented out, or put in the "stuff deemed unworthy" folder.
+
+### Sounds
+|Sound|Definition|Id|
+|--|--|--|
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/idle1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/idle2.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/idle3.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/idle4.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/idle5.ogg?raw=true')">🔊</button>|Idle|mob.copper_golem.idle
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/hit1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/hit2.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/hit3.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/hit4.ogg?raw=true')">🔊</button>|Hurt|mob.copper_golem.hurt
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/death1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/death2.ogg?raw=true')">🔊</button>|Death|mob.copper_golem.death
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape1.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape2.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape3.ogg?raw=true')">🔊</button><button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/copper_golem/scrape4.ogg?raw=true')">🔊</button>|Scrape|mob.copper_golem.releif
 
 
 <!-- ## t

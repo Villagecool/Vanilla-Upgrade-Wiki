@@ -424,6 +424,10 @@ Gloicalium has a process of creation similar to **Netherite**
 
 These sheets can then be used for a number of different components
 
+- Gloricalium is known for being extemely bright and reflective. Hence their appearence in Vibrant Visuals or RTX
+
+<img src ="../ass-sets/vv_gloricalium.png" width=242px/>
+
 </div>
 
 <!--:::-->
