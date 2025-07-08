@@ -4,7 +4,58 @@ This article is incomplete! So it may lack details or crucial information.
 Reason: I dont wanna write all that
 :::
 
+# v3.1.0
+
+- Fixed and added PRB files for a handful of blocks
+- Adjusted pumice minining speed to be faster
+- Reverted Nether Springs to be `structure_template_feature`s instead of Jigsaw based
+- Nether Springs will now properly generate (Not including terrian errors)
+- Redesigned Nether Springs to be a mass of Blackstone, Basalt, Charred Rock, and more.
+- Ropes will no longer suffocate the player while climbing to a rope block touching the ground
+- Ropes no longer replace blocks below them when building
+- All texture ids are now namespaced with `vc_` in a effort to make texture packs compatable with other addons
+  - The asset destination can be changed in `terrian_texture.json` or `item_texture.json`
+  ```json
+  	"vc_azalea_planks": {
+  		"textures": "textures/blocks/azalea_planks" // Change the destination here // [!code highlight]
+  	},
+  ```
+- Goodlands will now spawn in badlands again
+- Removed `glyph_E1.png` in favor of `glyph_F2.png` for compatibility sake
+- Blue Berries should spawn in plains biomes again
+- Chocolate Cake no longer uses stone sounds
+- Knowladge Harvester no longer crafts 4 items
+- Removed the Copper Golem in favor of the one being added in 1.21.100
+- The Giant will now spawn after completing the respective ritual
+- Remade the "Giant Omen" psudo-status effect
+- Tumbleweed will face away from the player when spawned
+- Repaired broken mob spawn rules
+- Vanilla Upgrade's texture pack no longer requires the behavior pack to be added
+  - The behavior pack still requires the texture pack however
+- Vanilla Upgrade is no longer making use of Bridge to export
+
+# v3.0.3
+
+- Updated jigsaw structures to latest format (thus re-adding them to the game)
+- Illusioner huts are now jigsaw based
+- removed invisible blocks from illusioner hut
+- Pack manifest now uses proper version notation
+
+# v3.0.2
+
+- Further fixed mob variants
+- Updated the chinese translation via @TanakaLun
+- Updated and fixed PRB for vibrant visuals
+- Re-added gysers?
+- other subtle bug fixes
+
+# v3.0.1
+
+- Fixed broken mob variants
+- Removed some files that were suppose to be removed in the github repo
+
 # v3.0.0 <Badge type="info" text="(In no particular order)"/>
+
 - Rebuild the entire source code
 - Completely Revamped World Generation
 - Removed Lag
