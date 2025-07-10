@@ -6,6 +6,9 @@ Reason: I dont wanna write all that
 
 # v3.1.0
 
+- Added the Withered Bone Block
+- Redesigned Soul Sandstone
+- Added Snow Brick, Blue Nether Brick, Quartz Brick, and Soul Sandstone Walls
 - Fixed and added PRB files for a handful of blocks
 - Adjusted pumice minining speed to be faster
 - Reverted Nether Springs to be `structure_template_feature`s instead of Jigsaw based
@@ -21,8 +24,13 @@ Reason: I dont wanna write all that
   	},
   ```
 - Goodlands will now spawn in badlands again
+- Make it so the player can jump through custom doors, trapdoors, and fence gates like in vanilla.
+- Blocks can now be placed on top of fences and stairs like normal.
+- Wooden Doors can now be opened by redstone
+  - Glass doors will not be affected by redstone due to this being their intended feature
 - Removed `glyph_E1.png` in favor of `glyph_F2.png` for compatibility sake
 - Blue Berries should spawn in plains biomes again
+- Sea Pineapple SHOULD generate in deep warm oceans (they've been giving me a hard time)
 - Chocolate Cake no longer uses stone sounds
 - Knowladge Harvester no longer crafts 4 items
 - Removed the Copper Golem in favor of the one being added in 1.21.100
@@ -30,9 +38,16 @@ Reason: I dont wanna write all that
 - Remade the "Giant Omen" psudo-status effect
 - Tumbleweed will face away from the player when spawned
 - Repaired broken mob spawn rules
+- Fixed the sparse not finding food
+- Added `search` and `find` sounds to the sparse and respective animations
 - Vanilla Upgrade's texture pack no longer requires the behavior pack to be added
   - The behavior pack still requires the texture pack however
 - Vanilla Upgrade is no longer making use of Bridge to export
+
+- Disabled Termite's natrual spawning until further notice.
+  - This is due to the entire termite system, (termite mound included) being extremely unoptimized.
+  - The termite will be planned to make use of `minecraft:behavior.take_block` rather than `minecraft:behavior.move_to_block`
+    - When this component is released from preview, the termite system will be reworked and added back.
 
 # v3.0.3
 

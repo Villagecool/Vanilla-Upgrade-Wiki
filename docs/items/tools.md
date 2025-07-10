@@ -327,7 +327,7 @@ While Holding a **Totem of Illusion**, the totem will be consumed, and 6 identic
 <button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/player_clone/breathe.ogg?raw=true')">🔊</button>|Player Clone Breathes|mob.player_clone.idle|
 
 
-## Wither Bone Meal
+## Withered Bone Meal
 
 ![img](../ass-sets/items/wither_bone_meal.png)
 `vc:wither_bone_meal`
@@ -338,8 +338,29 @@ While Holding a **Totem of Illusion**, the totem will be consumed, and 6 identic
 |Deals Damage|No|
 
 ### About:
-**Wither Bone Meal** functions exactally like normal <img src="https://minecraft.wiki/images/Bone_Meal_JE3_BE3.png" class="inline-img"/> **Bone Meal**, however, it exclusively works on <img src="../ass-sets/items/warped_wart.png" class="inline-img"/> <img src="https://minecraft.wiki/images/Nether_Wart_%28item%29_JE2_BE1.png?65953" class="inline-img"/> Nether Warts
+**Withered Bone Meal** functions exactally like normal <img src="https://minecraft.wiki/images/Bone_Meal_JE3_BE3.png" class="inline-img"/> **Bone Meal**, however, it exclusively works on <img src="../ass-sets/items/warped_wart.png" class="inline-img"/> <img src="https://minecraft.wiki/images/Nether_Wart_%28item%29_JE2_BE1.png?65953" class="inline-img"/> Nether Warts
 
+### Crafting:
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone</span> <img src="../ass-sets/items/wither_bone.png"/></div>
+  </div>
+</div>
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone Block</span> <img src="../ass-sets/blocks/wither_bone_block.png"/></div>
+  </div>
+</div>
 
 <script setup>
 import { computed, ref } from "vue";

@@ -462,6 +462,10 @@ These sheets can then be used for a number of different components
         <span class="name"><div class="img"><img src="../ass-sets/blocks/soul_sandstone_slab.png" width="25" height="25"></div>Slab</span>
   </label>
   <label class="radioswitcher">
+    <input type="radio" name="radioswitcher" v-model="selectedInfos" value="soption8">
+        <span class="name"><div class="img"><img src="../ass-sets/blocks/soul_sandstone_wall.png" width="25" height="25"></div>Wall</span>
+  </label>
+  <label class="radioswitcher">
     <input type="radio" name="radioswitcher" v-model="selectedInfos" value="soption1">
         <span class="name"><div class="img"><img src="../ass-sets/blocks/soulbush.png" width="25" height="25"></div>Soulbush</span>
   </label>
@@ -559,7 +563,7 @@ const blockDataAza = [
   { name: "Azalea Slab", file: "azalea_slab", vc: "azalea_slab", breakingTime: 3, flammable: "Yes (5)", placement: "Directional" , info: ""},
   { name: "Azalea Door", file: "azalea_door", vc: "azalea_door", breakingTime: 2.5, flammable: "Yes (5)", placement: "Directional" , info: ""},
   { name: "Azalea Trapdoor", file: "azalea_trapdoor", vc: "azalea_trapdoor", breakingTime: 3, flammable: "Yes (5)", placement: "Directional" , info: ""},
-  { name: "Azalea Fence", file: "azalea_fence", vc: "azalea_fence", breakingTime: 2.5, flammable: "Yes (5)" , info: ""},
+  { name: "Azalea Fence", file: "azalea_fence", vc: "azalea_fence", breakingTime: 2.5, flammable: "Yes (5)" , info: "", placement: "Situational"},
   { name: "Azalea Fence Gate", file: "azalea_fence_gate", vc: "azalea_fence_gate", breakingTime: 2.5, flammable: "Yes (5)", placement: "Directional" , info: ""},
   { name: "Azalea Log", file: "azalea_log", vc: "azalea_log", breakingTime: 1.1, blastResistance: 0, flammable: "No", placement: "Positional" , info: ""},
   { name: "Azalea Wood", file: "azalea_wood", vc: "azalea_wood", breakingTime: 1.1, blastResistance: 0, flammable: "No", placement: "Positional" , info: ""},
@@ -570,7 +574,7 @@ const blockDataElax = [
   { name: "Zalu Block", file: "zalu_block", vc: "zalu_block", breakingTime: 5, luminous: "No", blastResistance: 9, flammable: "No", conductsRedstone: "No", info: "" },
   { name: "Zalu Plant", file: "zalu_plant", vc: "zalu_plant", breakingTime: 0.1, luminous: "Yes (3)", blastResistance: "_Not Set_", flammable: "No", conductsRedstone: "No", info: ""},
   { name: "Zalu Roots", file: "zalu_roots", vc: "zalu_roots", breakingTime: 0.1, luminous: "Yes (1)", blastResistance: "_Not Set_", flammable: "No", conductsRedstone: "No", info: "" },
-  { name: "Elax Fence", file: "elax_fence", vc: "elax_fence", breakingTime: 2.5, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", info: "" },
+  { name: "Elax Fence", file: "elax_fence", vc: "elax_fence", breakingTime: 2.5, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", info: "", placement: "Situational" },
   { name: "Elax Fence Gate", file: "elax_fence_gate", vc: "elax_fence_gate", breakingTime: 2.5, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", placement: "Directional", info: "" },
   { name: "Elax Floor Leaves", file: "elax_floor_leaves", vc: "elax_floor_leaves", breakingTime: 0.3, luminous: "No", blastResistance: 0, flammable: "No", conductsRedstone: "No", info: "" },
   { name: "Elax Fungus", file: "elax_fungus", vc: "elax_fungus", breakingTime: 1.1, luminous: "No", blastResistance: 0, flammable: "No", conductsRedstone: "No", info: "" },
@@ -588,7 +592,7 @@ const blockDataElax = [
   { name: "Elax Sapling", file: "sapling_elax", vc: "sapling_elax", breakingTime: 0.5, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", info: "" }
 ];
 const palmBlocks = [
-  { name: "Palm Fence", file: "palm_fence", vc: "palm_fence", breakingTime: 2.5, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", info: "" },
+  { name: "Palm Fence", file: "palm_fence", vc: "palm_fence", breakingTime: 2.5, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", info: "", placement: "Situational" },
   { name: "Palm Fence Gate", file: "palm_fence_gate", vc: "palm_fence_gate", breakingTime: 2.5, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", placement: "Directional", info: "" },
   { name: "Palm Leaves", file: "palm_leaves", vc: "palm_leaves", breakingTime: 3, luminous: "No", blastResistance: "_Not Set_", flammable: "No", conductsRedstone: "No", info: "" },
   { name: "Palm Log", file: "palm_log", vc: "palm_log", breakingTime: 1.1, luminous: "No", blastResistance: 0, flammable: "No", conductsRedstone: "No", placement: "Positional", info: "" },
@@ -603,7 +607,7 @@ const palmBlocks = [
   { name: "Palm Sapling", file: "sapling_palm", vc: "palm_sapling", breakingTime: 0.5, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", info: "" }
 ];
 const compressedCopper = [
-  { name: "Compressed Copper Bars", file: "compressed_copper_bars", vc: "compressed_copper_bars", breakingTime: 6.5, luminous: "No", blastResistance: "_Not Set_", flammable: "No", conductsRedstone: "No" },
+  { name: "Compressed Copper Bars", file: "compressed_copper_bars", vc: "compressed_copper_bars", breakingTime: 6.5, luminous: "No", blastResistance: "_Not Set_", flammable: "No", conductsRedstone: "No", placement: "Situational" },
   { name: "Compressed Copper Block", file: "compressed_copper_block", vc: "compressed_copper_block", breakingTime: 25, luminous: "No", blastResistance: "_Not Set_", flammable: "No", conductsRedstone: "No" },
   { name: "Compressed Copper Door", file: "compressed_copper_door", vc: "compressed_copper_door", breakingTime: 2.5, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "Yes", placement: "Directional" },
   { name: "Compressed Copper Stairs", file: "compressed_copper_stairs", vc: "compressed_copper_stairs", breakingTime: 25, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", placement: "Directional" },
@@ -643,7 +647,8 @@ const soulsandstone = [
   { name: "Soul Sandstone Cut", file: "soul_sandstone_cut", vc: "soul_sandstone_cut", breakingTime: 10, luminous: "No", blastResistance: "_Not Set_", flammable: "No", conductsRedstone: "No" },
   { name: "Soul Sandstone Smooth", file: "soul_sandstone_smooth", vc: "soul_sandstone_smooth", breakingTime: 10, luminous: "No", blastResistance: "_Not Set_", flammable: "No", conductsRedstone: "No" },
   { name: "Soul Sandstone Stairs", file: "soul_sandstone_stairs", vc: "soul_sandstone_stairs", breakingTime: 10, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", placement: "Directional" },
-  { name: "Soul Sandstone Slab", file: "soul_sandstone_slab", vc: "soul_sandstone_slab", breakingTime: 10, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", placement: "Directional" }
+  { name: "Soul Sandstone Slab", file: "soul_sandstone_slab", vc: "soul_sandstone_slab", breakingTime: 10, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", placement: "Directional" },
+  { name: "Soul Sandstone Wall", file: "soul_sandstone_wall", vc: "soul_sandstone_wall", breakingTime: 10, luminous: "No", blastResistance: "_Not Set_", flammable: "Yes (5)", conductsRedstone: "No", placement: "Situational" }
   
   //{ name: "Snow Bricks", file: "snowbrick", vc: "snowbrick", breakingTime: 5, luminous: "No", blastResistance: "_Not Set_", flammable: "No", conductsRedstone: "No" },
   //{ name: "Snow Brick Stairs", file: "snow_brick_stairs", vc: "snow_brick_stairs", breakingTime: 5, luminous: "No", blastResistance: "_Not Set_", flammable: "No", conductsRedstone: "No", placement: "Directional" },

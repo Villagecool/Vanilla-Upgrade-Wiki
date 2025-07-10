@@ -16,6 +16,10 @@
     <input type="radio" name="radioswitcher" v-model="selectedBNB" value="3">
         <span class="name"><div class="img"><img src="../ass-sets/blocks/blue_nether_brick_slab.png" width="25" height="25"></div>Slab</span>
   </label>
+  <label class="radioswitcher">
+    <input type="radio" name="radioswitcher" v-model="selectedBNB" value="4">
+        <span class="name"><div class="img"><img src="../ass-sets/blocks/blue_nether_brick_wall.png" width="25" height="25"></div>Wall</span>
+  </label>
 </div>
 
 <!-- Transition Wrapper for Collapsible Info Box -->
@@ -216,6 +220,7 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
 **Glass Doors** are a [Glass](https://minecraft.wiki/w/Glass) based door
 - Glass doors cannot be opened by redstone
   - This was a intnetional feature. However, due to lag, all Vanilla Upgrade doors do not work with redstone.
+    - This was changed as of v3.1.0
   
 ### Crafting:
 <div class="crafting-background">
@@ -278,6 +283,10 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
     <input type="radio" name="radioswitcher" v-model="selectedSB" value="3">
         <span class="name"><div class="img"><img src="../ass-sets/blocks/snow_brick_slab.png" width="25" height="25"></div>Slab</span>
   </label>
+  <label class="radioswitcher">
+    <input type="radio" name="radioswitcher" v-model="selectedSB" value="4">
+        <span class="name"><div class="img"><img src="../ass-sets/blocks/snow_brick_wall.png" width="25" height="25"></div>Wall</span>
+  </label>
 </div>
 
 <transition name="slide">
@@ -316,11 +325,12 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
   </div>
 </div>
 
-## Quartz Brick Stairs and Slab
+## Quartz Brick Stairs, Slab, and Wall
 
 <div class="kinda-fancy-menu" width="fit-content"> 
 <div class="img"><img src="../ass-sets/blocks/quartz_brick_stairs.png"><p data-v-4a89f8d7=""><code data-v-4a89f8d7="">vc:quartz_brick_stairs</code></p></div>
 <div class="img"><img src="../ass-sets/blocks/quartz_brick_slab.png"><p data-v-4a89f8d7=""><code data-v-4a89f8d7="">vc:quartz_brick_slab</code></p></div>
+<div class="img"><img src="../ass-sets/blocks/quartz_brick_wall.png"><p data-v-4a89f8d7=""><code data-v-4a89f8d7="">vc:quartz_brick_wall</code></p></div>
 </div>
 
 | Component | Value |
@@ -333,7 +343,7 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
 |Placement Style|Directional|
 
 ### About:
-**Quartz Brick Stairs and Slabs** are simple stair and slab variants of [Quartz Bricks]()
+**Quartz Brick Stairs and Slabs** are simple stair, slab and wall variants of [Quartz Bricks](https://minecraft.wiki/w/Quartz_Bricks)
 
 ### Crafting:
 <div class="crafting-background">
@@ -359,6 +369,20 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
     <div class="crafting-grid-item"> </div>
     <div class="crafting-grid-item"> </div>
     <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Quartz Bricks</span> <img src="https://minecraft.wiki/images/Quartz_Bricks_JE2.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Quartz Bricks</span> <img src="https://minecraft.wiki/images/Quartz_Bricks_JE2.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Quartz Bricks</span> <img src="https://minecraft.wiki/images/Quartz_Bricks_JE2.png"/></div>
+  </div>
+</div>
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Quartz Brick Wall</span> <img src="../ass-sets/blocks/quartz_brick_wall.png"/></div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Quartz Bricks</span> <img src="https://minecraft.wiki/images/Quartz_Bricks_JE2.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Quartz Bricks</span> <img src="https://minecraft.wiki/images/Quartz_Bricks_JE2.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Quartz Bricks</span> <img src="https://minecraft.wiki/images/Quartz_Bricks_JE2.png"/></div>
     <div class="crafting-grid-item"><span class="c-tooltip-text">Quartz Bricks</span> <img src="https://minecraft.wiki/images/Quartz_Bricks_JE2.png"/></div>
     <div class="crafting-grid-item"><span class="c-tooltip-text">Quartz Bricks</span> <img src="https://minecraft.wiki/images/Quartz_Bricks_JE2.png"/></div>
     <div class="crafting-grid-item"><span class="c-tooltip-text">Quartz Bricks</span> <img src="https://minecraft.wiki/images/Quartz_Bricks_JE2.png"/></div>
@@ -430,6 +454,38 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
 ### About:
 **Silver Birch Trailings** stem off the bottom of [Silver Birch Leaves](/blocks/deco.html#silver-birch-leaves)
 - Their only purpose is to make the tree pretty lol
+
+## Withered Bone Block
+
+![img](../ass-sets/blocks/wither_bone_block.png)
+`vc:wither_bone_block`
+| Component | Value |
+|---|---|
+|Breaking time (secs)|10|
+|Luminous|No|
+|Blast resistance|2|
+|Flammable|No|
+|Conducts Redstone|No|
+|Placement Style|Directional|
+
+### About:
+**Withered Bone Block** is the wither variant of the [Bone Block](https://minecraft.wiki/w/Bone_Block)
+
+### Crafting:
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Withered Bone Block</span> <img src="../ass-sets/blocks/wither_bone_block.png"/></div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Withered Bone Meal</span> <img src="../ass-sets/items/wither_bone_meal.png"/></div>
+  </div>
+</div>
 
 <script setup>
 import { computed, ref } from "vue";
@@ -518,6 +574,37 @@ const blueNetherBricks = [
     <div class="crafting-grid-item"> </div>
     <div class="crafting-grid-item"> </div>
     <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
+  </div>
+</div>
+    `,
+    `
+## Blue Nether Brick Wall
+
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_brick_wall.png?raw=true)
+\`vc:blue_nether_brick_wall\`
+| Component | Value |
+|---|---|
+|Breaking time (secs)|10|
+|Luminous|No|
+|Blast resistance|6|
+|Flammable|No|
+|Conducts Redstone|No|
+|Waterloggable|Yes|
+|Placement Style|Situational|
+
+### Crafting:
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Blue Nether Brick Wall</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_brick_wall.png?raw=true"/></div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
     <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
     <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
     <div class="crafting-grid-item"><span class="c-tooltip-text">Blue Nether Bricks</span> <img src="https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/blue_nether_bricks.png?raw=true"/></div>
@@ -621,6 +708,20 @@ const snow = [
 |Flammable|No|
 |Conducts Redstone|No|
 |Placement Style|Directional|
+
+  `,
+`## Snow Brick Wall
+
+![img](https://github.com/Villagecool/Vanilla-Upgrade-Wiki/blob/main/docs/ass-sets/blocks/snow_brick_wall.png?raw=true)
+\`vc:snow_brick_wall\`
+| Component | Value |
+|---|---|
+|Breaking time (secs)|5|
+|Luminous|No|
+|Blast resistance|_Not Set_|
+|Flammable|No|
+|Conducts Redstone|No|
+|Placement Style|Situational|
 
   `
 ]

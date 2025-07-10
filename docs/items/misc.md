@@ -188,7 +188,7 @@ Your browser does not support the audio element.
 
 ### About:
 
-## Wither Bone
+## Withered Bone
 
 ![img](../ass-sets/items/wither_bone.png)
 `vc:wither_bone`
