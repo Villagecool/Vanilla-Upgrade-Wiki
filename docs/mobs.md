@@ -264,6 +264,7 @@ The copper golem was removed in v3.1.0 due to the base game copper golem being a
 - If oxidized, they would begin to slow in movement
 - This could be countered by waxing the golem
 - They could be created by stacking a Lightning Rod on a Block of Compressed Copper
+- The copper golem's sound were created using a [Copper Block AI Filter](https://weights.gg) (This has been removed from the site)
 
 - After being removed in v3.1.0, many of the Copper Golem's files are still present in the source code. It either been commented out, or put in the "stuff deemed unworthy" folder.
 
