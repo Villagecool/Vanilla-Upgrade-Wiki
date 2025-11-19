@@ -28,6 +28,7 @@
 </transition>
 
 **Blue Nether Bricks** are a blue variant of [Nether Bricks](https://minecraft.wiki/w/Nether_Bricks) that originate from [Warped Warts](/items/crops.html#warped-wart)
+
 - They are essentially the same as [Red Nether Bricks](https://minecraft.wiki/w/Red_Nether_Bricks)
 
 </div>
@@ -45,8 +46,11 @@
 |Conducts Redstone|No|
 
 ### About:
+
 Carved Bricks are a simple decoration block with a carving of a fox on its face.
+
 ### Crafting
+
 <div class="crafting-background">
     <div class="item-result"> <span class="c-tooltip-text">Carved Bricks</span> <img src="../ass-sets/blocks/carvedbricks.png"/> </div>
   <div class="crafting-grid">
@@ -72,6 +76,7 @@ Carved Bricks are a simple decoration block with a carving of a fox on its face.
 |Placement Style|Directional|
 
 ### About:
+
 Carved Melons come form Minecraft earth, they are worn by Melon Golems
 
 Placing a Carved Melon on two snow blocks will spawn a melon golem
@@ -94,10 +99,12 @@ Placing a Carved Melon on two snow blocks will spawn a melon golem
 |Placement Style|Directional|
 
 ### About:
+
 Speckled Carved Melons are a variant of the Carved Melon they are worn by Melon Golems
 
 Placing a Speckled Carved Melon on two snow blocks will spawn a snow golem with a Speckled Carved Melon
 <img src="../ass-sets/mobs/speckled_melon_golem.png" height="64" width="64">
+
 - they are created by shearing <img class="inline-img" src="https://minecraft.wiki/images/Invicon_Shears.png?b943a"> a Speckled Melon Block <img src="../ass-sets/blocks/melon_speckled.png" class="inline-img">
 - Their id is misspelled as "mellon" due to vlliage not knowing how to spell
 
@@ -114,10 +121,52 @@ Placing a Speckled Carved Melon on two snow blocks will spawn a snow golem with 
 |Conducts Redstone|No|
 
 ### About:
-*Charred Rocks* are the structure of [Nether Springs](/features.html#nether-springs) found in lava lakes.
+
+_Charred Rocks_ are the structure of [Nether Springs](/features.html#nether-springs) found in lava lakes.
+
 - They typically do not spawn anywhere else in the nether
 - <img src="../ass-sets/blocks/aloe_plant.png" class="inline-img"> [Aloe Plants](/items/crops.html#aloe-plant) can grow on these
 - They are extremely brittle, hence not being able to be crafted with
+
+## Copper Campfire
+
+![img](../ass-sets/blocks/copper_campfire.png)
+
+`vc:copper_campfire`
+|Component|Value|
+|---|---|
+|Breaking time (secs)|3|
+|Luminous|No|
+|Blast resistance|_Not Set_|
+|Flammable|Yes (5)|
+|Conducts Redstone|No|
+|Waterloggabe|No|
+|Placement Style: |Directional|
+
+### About:
+
+**Copper Campfire** are the Copper variant of the <img src="https://minecraft.wiki/images/Invicon_Campfire.png" style="image-rendering: pixelated" class="inline-img"/> **Campfire**, in respect to _The Copper Age_
+
+- Sadly, Copper Campfires cannot be cooked on
+  - The Joke reason is that the copper would make your food unsafe
+  - The real reason is that that would be close to impossible given current limitations
+
+### Crafting
+
+<div class="crafting-background">
+    <div class="item-result"> <span class="c-tooltip-text">Copper Campfire</span> <img src="../ass-sets/blocks/copper_campfire.png"/> </div>
+  <div class="crafting-grid">
+    <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Stick</span> <img src="https://minecraft.wiki/images/Stick_JE1_BE1.png?10fae"/></div>
+    <div class="crafting-grid-item"> </div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Stick</span> <img src="https://minecraft.wiki/images/Stick_JE1_BE1.png?10fae"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Copper Torch</span> <img style="image-rendering: pixelated" src="https://minecraft.wiki/images/Invicon_Copper_Torch.png?33b69"/></div>
+    <div class="crafting-grid-item"><span class="c-tooltip-text">Stick</span> <img src="https://minecraft.wiki/images/Stick_JE1_BE1.png?10fae"/></div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Any Log</span> <img src="https://minecraft.wiki/images/thumb/Oak_Log_%28UD%29_JE8_BE3.png/150px-Oak_Log_%28UD%29_JE8_BE3.png?8a080"/>  </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Any Log</span> <img src="https://minecraft.wiki/images/thumb/Oak_Log_%28UD%29_JE8_BE3.png/150px-Oak_Log_%28UD%29_JE8_BE3.png?8a080"/>  </div>
+    <div class="crafting-grid-item"> <span class="c-tooltip-text">Any Log</span> <img src="https://minecraft.wiki/images/thumb/Oak_Log_%28UD%29_JE8_BE3.png/150px-Oak_Log_%28UD%29_JE8_BE3.png?8a080"/>  </div>
+  </div>
+</div>
 
 ## Dirt
 
@@ -139,6 +188,7 @@ Placing a Speckled Carved Melon on two snow blocks will spawn a snow golem with 
 </transition>
 
 **Dirt Slabs** and **Stairs** are simply [Dirt](https://minecraft.wiki/w/Dirt) blocks in stair and slab form
+
 - They have almost the exact same stats of normal dirt block
 
 </div>
@@ -150,20 +200,23 @@ Placing a Speckled Carved Melon on two snow blocks will spawn a snow golem with 
 <div class="img"><img src="../ass-sets/blocks/endslate_bricks_cracked.png"><code data-v-4a89f8d7="">vc:endslate_bricks_cracked</code></div>
 </div>
 
-| Component | Value |
-|---|---|
-|Breaking time (secs)|20|
-|Luminous|No|
-|Blast resistance|9|
-|Flammable|No|
-|Conducts Redstone|No|
+| Component            | Value |
+| -------------------- | ----- |
+| Breaking time (secs) | 20    |
+| Luminous             | No    |
+| Blast resistance     | 9     |
+| Flammable            | No    |
+| Conducts Redstone    | No    |
 
 ### About:
+
 **Endlate bricks** are <img src="../ass-sets/blocks/endslate.png" class="inline-img"> [Endslate](/blocks/misc.html#endslate) based brick blocks
+
 - Unlike their [End Stone](https://minecraft.wiki/w/End_Stone_Bricks) counterpart, they come with a cracked variant
   - To compensate, [End stone was also given a cracked variant](/blocks/deco.html#end-bricks-cracked)
-  
+
 ### Crafting
+
 <div class="crafting-background">
     <div class="item-result"> <span class="c-tooltip-text">Endslate Bricks</span> <img src="../ass-sets/blocks/endslate_bricks.png"/> </div>
   <div class="crafting-grid">
@@ -193,10 +246,13 @@ Placing a Speckled Carved Melon on two snow blocks will spawn a snow golem with 
 |Conducts Redstone|No|
 
 ### About:
+
 Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have a cracked variant in the Vanilla Game, they were given one.
+
 - They have the exact same stats as their vanilla counterpart
 
 ### Smelting
+
 <div class="smelting-background">
     <div class="smelting-item-result"> <span class="c-tooltip-text">Cracked End Stone Bricks</span> <img src="../ass-sets/blocks/end_bricks_cracked.png"/> </div>
     <div class="smelting-item-input"> <span class="c-tooltip-text">End Stone Bricks</span> <img src="https://minecraft.wiki/images/End_Stone_Bricks_JE2_BE2.png?2d8bb"/> </div>
@@ -217,12 +273,15 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
 |Placement Style|Directional|
 
 ### About:
+
 **Glass Doors** are a [Glass](https://minecraft.wiki/w/Glass) based door
+
 - Glass doors cannot be opened by redstone
   - This was a intnetional feature. However, due to lag, all Vanilla Upgrade doors do not work with redstone.
     - This was changed as of v3.1.0
-  
+
 ### Crafting:
+
 <div class="crafting-background">
     <div class="item-result"> <span class="c-tooltip-text">Glass Door</span> <img src="../ass-sets/blocks/glass_door.png"/></div>
   <div class="crafting-grid">
@@ -251,11 +310,14 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
 |Placement Style|Directional|
 
 ### About:
+
 **Glass Trapdoors** are a [Glass](https://minecraft.wiki/w/Glass) based trapdoor
+
 - Glass Trapdoors cannot be opened by redstone
   - This was a intnetional feature. However, due to lag, all Vanilla Upgrade trapdoors do not work with redstone.
-  
+
 ### Crafting:
+
 <div class="crafting-background">
     <div class="item-result"> <span class="c-tooltip-text">Glass Trapdoor</span> <img src="../ass-sets/blocks/glass_trapdoor.png"/></div>
   <div class="crafting-grid">
@@ -311,9 +373,11 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
 |Placement Style|Directional|
 
 ### About:
+
 **Soul Jack o' Lanterns** are a variant of the [Jack o' Lantern]() crafted with a soul torch
 
 ### Crafting:
+
 <div class="crafting-background">
     <div class="item-result"> <span class="c-tooltip-text">Soul Jack o' Lantern</span> <img src="../ass-sets/blocks/lit_pumpkin_soul.png"/></div>
   <div class="crafting-grid">
@@ -333,19 +397,21 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
 <div class="img"><img src="../ass-sets/blocks/quartz_brick_wall.png"><p data-v-4a89f8d7=""><code data-v-4a89f8d7="">vc:quartz_brick_wall</code></p></div>
 </div>
 
-| Component | Value |
-|---|---|
-|Breaking time (secs)|4|
-|Luminous|No|
-|Blast resistance|0.8|
-|Flammable|No|
-|Conducts Redstone|No|
-|Placement Style|Directional|
+| Component            | Value       |
+| -------------------- | ----------- |
+| Breaking time (secs) | 4           |
+| Luminous             | No          |
+| Blast resistance     | 0.8         |
+| Flammable            | No          |
+| Conducts Redstone    | No          |
+| Placement Style      | Directional |
 
 ### About:
+
 **Quartz Brick Stairs and Slabs** are simple stair, slab and wall variants of [Quartz Bricks](https://minecraft.wiki/w/Quartz_Bricks)
 
 ### Crafting:
+
 <div class="crafting-background">
     <div class="item-result"> <span class="c-tooltip-text">Quartz Brick Stairs</span> <img src="../ass-sets/blocks/quartz_brick_stairs.png"/></div>
   <div class="crafting-grid">
@@ -389,26 +455,28 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
   </div>
 </div>
 
-## jeb_ Wool and Carpet
+## jeb\_ Wool and Carpet
 
 <div class="kinda-fancy-menu" width="fit-content"> 
 <div class="img"><img src="../ass-sets/blocks/rainbow_wool.gif"><p data-v-4a89f8d7=""><code data-v-4a89f8d7="">vc:rainbow_wool</code></p></div>
 <div class="img"><img src="../ass-sets/blocks/rainbow_carpet.gif"><p data-v-4a89f8d7=""><code data-v-4a89f8d7="">vc:rainbow_carpet</code></p></div>
 </div>
 
-| Component | Value |
-|---|---|
-|Breaking time (secs)|1.2 (Wool) 0.15 (Carpet)|
-|Luminous|No|
-|Blast resistance|0|
-|Flammable|Yes (30)|
-|Conducts Redstone|No|
+| Component            | Value                    |
+| -------------------- | ------------------------ |
+| Breaking time (secs) | 1.2 (Wool) 0.15 (Carpet) |
+| Luminous             | No                       |
+| Blast resistance     | 0                        |
+| Flammable            | Yes (30)                 |
+| Conducts Redstone    | No                       |
 
 ### About:
-**jeb_ Wool** (aka Rainbow Wool) is a new wool color sheared from sheep named "[jeb_](https://minecraft.wiki/w/Sheep#Easter_eggs)"
+
+**jeb\_ Wool** (aka Rainbow Wool) is a new wool color sheared from sheep named "[jeb\_](https://minecraft.wiki/w/Sheep#Easter_eggs)"
 ![img](https://minecraft.wiki/images/Jeb_Sheep_JE2.gif?2dcb4)
 
 ### Crafting:
+
 <div class="crafting-background">
     <div class="item-result"> <span class="c-tooltip-text">jeb_ Carpet</span> <img src="../ass-sets/blocks/rainbow_carpet.gif"/></div>
   <div class="crafting-grid">
@@ -436,7 +504,9 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
 |Conducts Redstone|No|
 
 ### About:
+
 **Silver Birch Leaves** are a special [Birch Leaf](https://minecraft.wiki/w/Leaves#Birch) variant that are yellow
+
 - They are inspired by [Real Birch trees that turn yellow in autumn](https://en.wikipedia.org/wiki/Betula_pendula)
 
 ## Silver Birch Trailings
@@ -452,7 +522,9 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
 |Conducts Redstone|No|
 
 ### About:
+
 **Silver Birch Trailings** stem off the bottom of [Silver Birch Leaves](/blocks/deco.html#silver-birch-leaves)
+
 - Their only purpose is to make the tree pretty lol
 
 ## Withered Bone Block
@@ -469,9 +541,11 @@ Because [End Stone Bricks](https://minecraft.wiki/w/End_Stone_Bricks) didnt have
 |Placement Style|Directional|
 
 ### About:
+
 **Withered Bone Block** is the wither variant of the [Bone Block](https://minecraft.wiki/w/Bone_Block)
 
 ### Crafting:
+
 <div class="crafting-background">
     <div class="item-result"> <span class="c-tooltip-text">Withered Bone Block</span> <img src="../ass-sets/blocks/wither_bone_block.png"/></div>
   <div class="crafting-grid">

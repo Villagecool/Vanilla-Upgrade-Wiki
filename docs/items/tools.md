@@ -56,7 +56,7 @@ The **Copper Wrench** is a tool that can be used to rotate blocks 90 degrees
 ### Sounds
 |Sound|Definition|Id|
 |--|--|--|
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/random/wrench.ogg?raw=true')">🔊</button>|Wrench Rachets|random.wrench|
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/random/wrench.ogg?raw=true')">🔊</button>|Wrench Rachets|random.wrench|
 
 ## Frozen Feather
 
@@ -80,7 +80,7 @@ The **Copper Wrench** is a tool that can be used to rotate blocks 90 degrees
 ### Sounds
 |Sound|Definition|Id|
 |--|--|--|
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/random/crystalize_xp.ogg?raw=true')">🔊</button>|XP crystalizes|random.crystalize_xp|
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/random/crystalize_xp.ogg?raw=true')">🔊</button>|XP crystalizes|random.crystalize_xp|
 
 ## Glareizer
 
@@ -105,10 +105,10 @@ A **Glareizer** is a handheald contraption that tells the player how dark an are
 ### Sounds
 |Sound|Definition|Id|
 |--|--|--|
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/item/glareizer/none.ogg?raw=true')">🔊</button>|Teir 0|glareizer.none|
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/item/glareizer/low.ogg?raw=true')">🔊</button>|Teir 1|glareizer.low|
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/item/glareizer/med.ogg?raw=true')">🔊</button>|Teir 2|glareizer.med|
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/item/glareizer/high.ogg?raw=true')">🔊</button>|Teir 3|glareizer.high|
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/item/glareizer/none.ogg?raw=true')">🔊</button>|Teir 0|glareizer.none|
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/item/glareizer/low.ogg?raw=true')">🔊</button>|Teir 1|glareizer.low|
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/item/glareizer/med.ogg?raw=true')">🔊</button>|Teir 2|glareizer.med|
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/item/glareizer/high.ogg?raw=true')">🔊</button>|Teir 3|glareizer.high|
 
 ## Dispenser Minecart
 
@@ -323,8 +323,8 @@ While Holding a **Totem of Illusion**, the totem will be consumed, and 6 identic
 ### Sounds
 |Sound|Definition|Id|
 |--|--|--|
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/random/totem2.ogg?raw=true')">🔊</button>|Use Illusion Totem|random.totem2|
-<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/mob/player_clone/breathe.ogg?raw=true')">🔊</button>|Player Clone Breathes|mob.player_clone.idle|
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/random/totem2.ogg?raw=true')">🔊</button>|Use Illusion Totem|random.totem2|
+<button class="sound-button" @click="playSound('https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/mob/player_clone/breathe.ogg?raw=true')">🔊</button>|Player Clone Breathes|mob.player_clone.idle|
 
 
 ## Withered Bone Meal
