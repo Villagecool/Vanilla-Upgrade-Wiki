@@ -111,13 +111,13 @@ This article is incomplete! So it may lack details or crucial information.
 - Unlike more goat horns, the audio will stop playing when the player stops using the item.
   - This is due to its unusually long length
 - The goat horn was sampled and tuned by Vlliage
-  - The sf2 can be downloaded [here](https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/item/horn/Goat%20Horn.sf2)
+  - The sf2 can be downloaded [here](https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/item/horn/Goat%20Horn.sf2)
 - The midi was created on onlinesequencer, I cannot find the original, however
 
 ### Sounds:
 
 <audio controls>
-  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/item/horn/roll.ogg?raw=true" type="audio/ogg">
+  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/item/horn/roll.ogg?raw=true" type="audio/ogg">
 Your browser does not support the audio element.
 </audio>
 
@@ -138,7 +138,7 @@ Your browser does not support the audio element.
 ### Sounds:
 
 <audio controls>
-  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/music/game/records/mist.ogg?raw=true" type="audio/ogg">
+  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/music/game/records/mist.ogg?raw=true" type="audio/ogg">
 Your browser does not support the audio element.
 </audio>
 
@@ -160,7 +160,7 @@ Your browser does not support the audio element.
 ### Sounds:
 
 <audio controls>
-  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/music/game/records/subhour.ogg?raw=true" type="audio/ogg">
+  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/music/game/records/subhour.ogg?raw=true" type="audio/ogg">
 Your browser does not support the audio element.
 </audio>
 
@@ -181,7 +181,7 @@ Your browser does not support the audio element.
 ### Sounds:
 
 <audio controls>
-  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/sounds/music/game/records/droopy.ogg?raw=true" type="audio/ogg">
+  <source src="https://github.com/Villagecool/Vanilla-Upgrade-Public-Source/blob/main/RP/Vanilla%20Upgrade%20V3%20RP/sounds/music/game/records/droopy.ogg?raw=true" type="audio/ogg">
 Your browser does not support the audio element.
 </audio>
 
